@@ -1,0 +1,46 @@
+@startuml
+annotation java.lang.SuppressWarnings
+class autosempresa.Autobus
+class autosempresa.Camioneta
+class autosempresa.Cliente
+class autosempresa.Deportivo
+class autosempresa.Empleado
+class autosempresa.MenuRegistros
+class autosempresa.Persona
+class autosempresa.Sedanes
+class autosempresa.Vehiculo
+class autosempresa.VistaVehiculo
+class autosempresa.VistaVehiculoDeportivos
+class autosempresa.VistaVehiculoSedan
+class java.net.CacheRequest
+class java.util.ArrayList
+class java.util.List
+class javax.swing.JFrame
+class javax.swing.table.DefaultTableModel
+autosempresa.Autobus --|> autosempresa.Vehiculo
+autosempresa.Camioneta --|> autosempresa.Vehiculo
+autosempresa.Cliente --|> autosempresa.Persona
+autosempresa.Deportivo --|> autosempresa.Vehiculo
+autosempresa.Empleado --|> autosempresa.Persona
+autosempresa.MenuRegistros ..> java.lang.SuppressWarnings
+autosempresa.MenuRegistros --|> javax.swing.JFrame
+autosempresa.Sedanes --|> autosempresa.Vehiculo
+autosempresa.VistaVehiculo ..> java.lang.SuppressWarnings
+autosempresa.VistaVehiculo ..> java.net.CacheRequest
+autosempresa.VistaVehiculo ..> java.util.ArrayList
+autosempresa.VistaVehiculo ..> java.util.List
+autosempresa.VistaVehiculo --|> javax.swing.JFrame
+autosempresa.VistaVehiculo ..> javax.swing.table.DefaultTableModel
+autosempresa.VistaVehiculoDeportivos ..> java.lang.SuppressWarnings
+autosempresa.VistaVehiculoDeportivos ..> java.net.CacheRequest
+autosempresa.VistaVehiculoDeportivos ..> java.util.ArrayList
+autosempresa.VistaVehiculoDeportivos ..> java.util.List
+autosempresa.VistaVehiculoDeportivos --|> javax.swing.JFrame
+autosempresa.VistaVehiculoDeportivos ..> javax.swing.table.DefaultTableModel
+autosempresa.VistaVehiculoSedan ..> java.lang.SuppressWarnings
+autosempresa.VistaVehiculoSedan ..> java.net.CacheRequest
+autosempresa.VistaVehiculoSedan ..> java.util.ArrayList
+autosempresa.VistaVehiculoSedan ..> java.util.List
+autosempresa.VistaVehiculoSedan --|> javax.swing.JFrame
+autosempresa.VistaVehiculoSedan ..> javax.swing.table.DefaultTableModel
+@enduml

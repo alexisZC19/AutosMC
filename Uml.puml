@@ -1,0 +1,60 @@
+@startuml
+annotation java.lang.SuppressWarnings
+class View.MenuRegistros
+class View.VistaVehiculo
+class View.VistaVehiculoCamioneta
+class View.VistaVehiculoDeportivos
+class View.VistaVehiculoSedan
+class entity.Autobus
+class entity.Camioneta
+class entity.Cliente
+class entity.Deportivo
+class entity.Empleado
+class entity.Persona
+class entity.Sedanes
+class entity.Vehiculo
+class java.net.CacheRequest
+class java.util.ArrayList
+class java.util.List
+class javax.swing.JFrame
+class javax.swing.JOptionPane
+class javax.swing.table.DefaultTableModel
+View.MenuRegistros ..> java.lang.SuppressWarnings
+View.MenuRegistros --|> javax.swing.JFrame
+View.VistaVehiculo ..> java.lang.SuppressWarnings
+View.VistaVehiculo ..> entity.Vehiculo
+View.VistaVehiculo ..> java.net.CacheRequest
+View.VistaVehiculo ..> java.util.ArrayList
+View.VistaVehiculo ..> java.util.List
+View.VistaVehiculo --|> javax.swing.JFrame
+View.VistaVehiculo ..> javax.swing.table.DefaultTableModel
+View.VistaVehiculoCamioneta ..> java.lang.SuppressWarnings
+View.VistaVehiculoCamioneta ..> entity.Camioneta
+View.VistaVehiculoCamioneta ..> java.util.ArrayList
+View.VistaVehiculoCamioneta ..> java.util.List
+View.VistaVehiculoCamioneta --|> javax.swing.JFrame
+View.VistaVehiculoCamioneta ..> javax.swing.JOptionPane
+View.VistaVehiculoCamioneta ..> javax.swing.table.DefaultTableModel
+View.VistaVehiculoDeportivos ..> java.lang.SuppressWarnings
+View.VistaVehiculoDeportivos ..> entity.Deportivo
+View.VistaVehiculoDeportivos ..> entity.Sedanes
+View.VistaVehiculoDeportivos ..> java.net.CacheRequest
+View.VistaVehiculoDeportivos ..> java.util.ArrayList
+View.VistaVehiculoDeportivos ..> java.util.List
+View.VistaVehiculoDeportivos --|> javax.swing.JFrame
+View.VistaVehiculoDeportivos ..> javax.swing.JOptionPane
+View.VistaVehiculoDeportivos ..> javax.swing.table.DefaultTableModel
+View.VistaVehiculoSedan ..> java.lang.SuppressWarnings
+View.VistaVehiculoSedan ..> entity.Sedanes
+View.VistaVehiculoSedan ..> java.util.ArrayList
+View.VistaVehiculoSedan ..> java.util.List
+View.VistaVehiculoSedan --|> javax.swing.JFrame
+View.VistaVehiculoSedan ..> javax.swing.JOptionPane
+View.VistaVehiculoSedan ..> javax.swing.table.DefaultTableModel
+entity.Autobus --|> entity.Vehiculo
+entity.Camioneta --|> entity.Vehiculo
+entity.Cliente --|> entity.Persona
+entity.Deportivo --|> entity.Vehiculo
+entity.Empleado --|> entity.Persona
+entity.Sedanes --|> entity.Vehiculo
+@enduml
