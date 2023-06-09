@@ -14,7 +14,7 @@ public class RegistroSedanModelImpl implements IRegistroSedanModel {
 
     @Override
     public void crearRegistro(List<Sedanes> listaSedanes, Sedanes coche) {
-
+        //coche.setVelocidad(coche.getVelocidad());
         listaSedanes.add(coche);
     }
 
@@ -22,13 +22,15 @@ public class RegistroSedanModelImpl implements IRegistroSedanModel {
     public void mostrarRegistros(List<Sedanes> listaSedanes, DefaultTableModel auto) {
         auto.setRowCount(0);
         for (Sedanes coche : listaSedanes) {
-            Object[] fila = new Object[6];
+            Object[] fila = new Object[8];
             fila[0] = coche.getMarca();
             fila[1] = coche.getModelo();
             fila[2] = coche.getTipo();
             fila[3] = coche.getMatricula();
             fila[4] = coche.getVelocidad();
-            fila[5] = String.valueOf(coche.isLujo());
+            fila[5] = coche.getDistancia();
+            fila[6] = coche.getTiempo();
+            fila[7] = String.valueOf(coche.isLujo());
             auto.addRow(fila);
 
         }
@@ -43,14 +45,6 @@ public class RegistroSedanModelImpl implements IRegistroSedanModel {
             }
         }
 
-        /*for (Sedanes coche : listaSedanes) {
-             String mat = null;
-                if (coche.getMatricula().compareTo(mat) != 0) {
-                } else {
-                    listaSedanes.remove(coche);
-
-                    break;
-             }
-            }*/
+       
     }
 }

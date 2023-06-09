@@ -27,7 +27,7 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
    
     public VistaVehiculoSedan() {
         initComponents();
-        auto = (DefaultTableModel) jTable1.getModel();
+        auto = (DefaultTableModel) jTableRegistros.getModel();
        controller= new RegistroSedaneController();
     }
 
@@ -42,14 +42,16 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
         jComboBox2 = new javax.swing.JComboBox<>();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
+        jTextTiempo = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        jTableRegistros = new javax.swing.JTable();
         jLabel5 = new javax.swing.JLabel();
         jComboBox3 = new javax.swing.JComboBox<>();
         jButton5 = new javax.swing.JButton();
@@ -90,10 +92,16 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Velocidad: ");
+        jLabel4.setText("Distancia");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 108, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("Tiempo:");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, -1));
         jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 105, 132, -1));
         jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(406, 105, 135, -1));
+        jPanel1.add(jTextTiempo, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, 130, -1));
 
         jButton1.setBackground(new java.awt.Color(255, 204, 0));
         jButton1.setText("Registrar");
@@ -126,31 +134,31 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
         jButton4.setText("jButton4");
         jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 220, -1, -1));
 
-        jTable1.setBackground(new java.awt.Color(255, 204, 153));
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        jTableRegistros.setBackground(new java.awt.Color(255, 204, 153));
+        jTableRegistros.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Marca", "Modelo", "Tipo", "Matricula", "Velocidad", "Lujo"
+                "Marca", "Modelo", "Tipo", "Matricula", "Velocidad", "Distancia", "Tiempo", "Lujo"
             }
         ));
-        jTable1.addMouseListener(new java.awt.event.MouseAdapter() {
+        jTableRegistros.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jTable1MouseClicked(evt);
+                jTableRegistrosMouseClicked(evt);
             }
         });
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(jTableRegistros);
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, 518, 219));
 
         jLabel5.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Lujo_:");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 160, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 160, -1, -1));
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sedan", "Deportivo", "Jdm", "Autobus", " " }));
         jPanel1.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 25, -1, -1));
@@ -165,7 +173,7 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
         jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 520, -1, -1));
 
         jRadioButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jPanel1.add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 160, -1, -1));
+        jPanel1.add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 160, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
@@ -194,12 +202,22 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
         coche.setModelo(this.jComboBox2.getSelectedItem().toString());
         coche.setTipo(this.jComboBox3.getSelectedItem().toString());
         coche.setMatricula(this.jTextField1.getText());
-        coche.setVelocidad(Double.parseDouble(this.jTextField2.getText()));
+        
+        coche.setTiempo(Double.parseDouble(this.jTextTiempo.getText()));               
+        coche.setDistancia(Double.parseDouble(this.jTextField2.getText()));
+        
+        coche.setVelocidad(coche.getDistancia());
+        
+        
+        
+        
+        
+        
         coche.setLujo(this.jRadioButton1.isSelected());
         controller.RegistrarSedanes(listaSedanes, coche);
         controller.Mostrar(listaSedanes, auto);
     }//GEN-LAST:event_jButton1MouseClicked
-//
+
     
     /**
      * es el botton de salir
@@ -216,22 +234,11 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
     private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
         int confirm = JOptionPane.showConfirmDialog(this, "¿Estás seguro de que deseas eliminar el coche seleccionado? Una vez eliminado no se podra recuperar", "Confirmar eliminación de coche", JOptionPane.YES_NO_OPTION);
         if (confirm == JOptionPane.YES_OPTION) {
-            String mat = jTable1.getValueAt(jTable1.getSelectedRow(), 3).toString();
+            String mat = jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 3).toString();
             
             this.controller.eliminarRegistro(listaSedanes, mat);
             this.controller.Mostrar(listaSedanes, auto);
-            
-            /*for (Sedanes coche : listaSedanes) {
-                if (coche.getMatricula().compareTo(mat) == 0) {
-                    listaSedanes.remove(coche);
-                    controller.Mostrar(listaSedanes, auto);
-                    break;
-                }
-            }*/
-            
-            
-            
-            
+     
         }
 
     }//GEN-LAST:event_jButton3MouseClicked
@@ -250,9 +257,9 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
         coche.setVelocidad(Double.parseDouble(this.jTextField2.getText()));
         coche.setLujo(this.jRadioButton1.isSelected());
    
-        int selectedRow = jTable1.getSelectedRow();
+        int selectedRow = jTableRegistros.getSelectedRow();
         if (selectedRow != -1) {
-            String codigo = jTable1.getValueAt(selectedRow, 3).toString();
+            String codigo = jTableRegistros.getValueAt(selectedRow, 3).toString();
             for (int i=0; i < listaSedanes.size(); i++) {
                 Sedanes cocheActual = listaSedanes.get(i);
                 if (cocheActual.getMatricula().equals(codigo)) {
@@ -270,16 +277,16 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
      * se crea para poder seleccionar una fila de la tabla
      * @param evt 
      */
-    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
-        this.jComboBox1.setSelectedItem(jTable1.getValueAt(jTable1.getSelectedRow(), 0).toString());
-        this.jComboBox2.setSelectedItem(jTable1.getValueAt(jTable1.getSelectedRow(), 1).toString());
-        this.jComboBox3.setSelectedItem(jTable1.getValueAt(jTable1.getSelectedRow(), 2).toString());
-        String datoRadio = jTable1.getValueAt(jTable1.getSelectedRow(), 5).toString();
+    private void jTableRegistrosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTableRegistrosMouseClicked
+        this.jComboBox1.setSelectedItem(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 0).toString());
+        this.jComboBox2.setSelectedItem(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 1).toString());
+        this.jComboBox3.setSelectedItem(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 2).toString());
+        String datoRadio = jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 5).toString();
         boolean siRadio = Boolean.parseBoolean(datoRadio);
         this.jRadioButton1.setSelected(siRadio);
-        this.jTextField1.setText(jTable1.getValueAt(jTable1.getSelectedRow(), 3).toString());
-        this.jTextField2.setText(jTable1.getValueAt(jTable1.getSelectedRow(), 4).toString());
-    }//GEN-LAST:event_jTable1MouseClicked
+        this.jTextField1.setText(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 3).toString());
+        this.jTextField2.setText(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 4).toString());
+    }//GEN-LAST:event_jTableRegistrosMouseClicked
 
    
 
@@ -338,11 +345,13 @@ public class VistaVehiculoSedan extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
+    private javax.swing.JTable jTableRegistros;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextTiempo;
     // End of variables declaration//GEN-END:variables
 }
