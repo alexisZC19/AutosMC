@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-public class VistaPersonaCliente extends javax.swing.JFrame {
+public class VistaPersonaEmpleado extends javax.swing.JFrame {
     
     private final RegistroClienteController controller;
 
@@ -26,7 +26,7 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
     private final DefaultTableModel cliente ;
 
    
-    public VistaPersonaCliente() {
+    public VistaPersonaEmpleado() {
         initComponents();
         cliente= (DefaultTableModel) jTableRegistros.getModel();
        controller= new RegistroClienteController();
@@ -173,12 +173,7 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
         persona.setTelefono(this.jTextFieldTelefono.getText());
         persona.setCodCliente(this.jTextFieldCodClienete.getText());
         persona.setNombre(this.jTextFieldTelefono.getText());
-      
-        
-        
-        
-        
-      
+
        controller.RegistrarCliente(listaCliente, persona);
        controller.Mostrar(listaCliente, cliente);
     }//GEN-LAST:event_jButtonRegistrarMouseClicked
@@ -282,15 +277,14 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
             }
         } catch (ClassNotFoundException | InstantiationException 
                 | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(
-                    VistaPersonaCliente.class.getName()).log(
+            java.util.logging.Logger.getLogger(VistaPersonaEmpleado.class.getName()).log(
                             java.util.logging.Level.SEVERE, null, ex);
         }
        
 
         
         java.awt.EventQueue.invokeLater(() -> {
-            new VistaPersonaCliente().setVisible(true);
+            new VistaPersonaEmpleado().setVisible(true);
         });
     }
 

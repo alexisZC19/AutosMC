@@ -15,52 +15,65 @@ public class MenuRegistros extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
+        jButtonSedanes = new javax.swing.JButton();
+        jButtonDeportivo = new javax.swing.JButton();
+        jButtonCamioneta = new javax.swing.JButton();
+        jButtonEmpleado = new javax.swing.JButton();
+        jButtonCliente = new javax.swing.JButton();
+        jButtonSalir = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("MENÚ REGISTROS");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(157, 6, 142, 33));
+        jLabel1.setText("EMPRESA  DE AUTOS");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 310, 40));
 
-        jButton1.setText("Sedanes");
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 45, 101, -1));
-
-        jButton2.setText("Deportivo");
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 98, 101, -1));
-
-        jButton3.setText("Camioneta");
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 159, -1, -1));
-
-        jButton4.setText("Empleado");
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 215, 101, -1));
-
-        jButton5.setText("Cliente");
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 279, 101, -1));
-
-        jButton6.setText("jButton6");
-        jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
+        jButtonSedanes.setBackground(new java.awt.Color(204, 255, 255));
+        jButtonSedanes.setText("Sedanes");
+        jButtonSedanes.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton6MouseClicked(evt);
+                jButtonSedanesMouseClicked(evt);
             }
         });
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(574, 15, -1, -1));
+        jPanel1.add(jButtonSedanes, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 190, 40));
 
-        jButton7.setText("jButton7");
-        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(697, 15, -1, -1));
+        jButtonDeportivo.setBackground(new java.awt.Color(204, 255, 255));
+        jButtonDeportivo.setText("Deportivo");
+        jPanel1.add(jButtonDeportivo, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 50, 240, 40));
+
+        jButtonCamioneta.setBackground(new java.awt.Color(204, 255, 255));
+        jButtonCamioneta.setText("Camioneta");
+        jPanel1.add(jButtonCamioneta, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 50, 220, 40));
+
+        jButtonEmpleado.setBackground(new java.awt.Color(204, 255, 255));
+        jButtonEmpleado.setText("Empleado");
+        jPanel1.add(jButtonEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 240, 40));
+
+        jButtonCliente.setBackground(new java.awt.Color(204, 255, 255));
+        jButtonCliente.setText("Cliente");
+        jPanel1.add(jButtonCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 250, 250, 40));
+
+        jButtonSalir.setBackground(new java.awt.Color(204, 255, 255));
+        jButtonSalir.setText("Salir");
+        jButtonSalir.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonSalirMouseClicked(evt);
+            }
+        });
+        jPanel1.add(jButtonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 240, 100, 60));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fondoMenus.gif"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 770, 310));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -71,38 +84,19 @@ public class MenuRegistros extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseClicked
+    private void jButtonSalirMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonSalirMouseClicked
       System.exit(0);
-    }//GEN-LAST:event_jButton6MouseClicked
+    }//GEN-LAST:event_jButtonSalirMouseClicked
+
+    private void jButtonSedanesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonSedanesMouseClicked
+        
+    }//GEN-LAST:event_jButtonSedanesMouseClicked
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MenuRegistros.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MenuRegistros.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MenuRegistros.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MenuRegistros.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new MenuRegistros().setVisible(true);
@@ -111,14 +105,14 @@ public class MenuRegistros extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButtonCamioneta;
+    private javax.swing.JButton jButtonCliente;
+    private javax.swing.JButton jButtonDeportivo;
+    private javax.swing.JButton jButtonEmpleado;
+    private javax.swing.JButton jButtonSalir;
+    private javax.swing.JButton jButtonSedanes;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
