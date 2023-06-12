@@ -18,14 +18,14 @@ import javax.swing.table.DefaultTableModel;
 
 
 public class VistaVehiculoDeportivos extends javax.swing.JFrame {
-    private List<Deportivo> listaDeportivo= new ArrayList<>();
+    private final List<Deportivo> listaDeportivo= new ArrayList<>();
     
      private final DefaultTableModel auto;
      private final RegistroDeportivoController controller ;
 
     public VistaVehiculoDeportivos() {
         initComponents();
-       auto = (DefaultTableModel) jTable1.getModel();
+       auto = (DefaultTableModel) jTableDatos.getModel();
        controller=new RegistroDeportivoController();
     }
 
@@ -35,72 +35,72 @@ public class VistaVehiculoDeportivos extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jLabel2 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        jLabelMarca = new javax.swing.JLabel();
+        jComboBoxMarca = new javax.swing.JComboBox<String>();
+        jLabelModelo = new javax.swing.JLabel();
+        jComboBoxModelo = new javax.swing.JComboBox<String>();
+        jLabelMatricula = new javax.swing.JLabel();
+        jLabelDistancia = new javax.swing.JLabel();
+        jTextFieldMatricula = new javax.swing.JTextField();
+        jTextFieldDistancia = new javax.swing.JTextField();
+        jButtonRegistrar = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        jButtonSalir = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
-        jLabel5 = new javax.swing.JLabel();
-        jComboBox3 = new javax.swing.JComboBox<>();
+        jTableDatos = new javax.swing.JTable();
+        jLabelTipo = new javax.swing.JLabel();
+        jComboBoxTipo = new javax.swing.JComboBox<String>();
         jButton5 = new javax.swing.JButton();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
+        jRadioButtonTwinTurbo = new javax.swing.JRadioButton();
+        jRadioButtonSuperCargador = new javax.swing.JRadioButton();
         jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Marca: ");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 28, -1, -1));
+        jLabelMarca.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jLabelMarca.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelMarca.setText("Marca: ");
+        jPanel1.add(jLabelMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 28, -1, -1));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nissan", "Buggati", "Mitsubishi", "Mazda", "Toyota ", "Volkswagen", " ", " " }));
-        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+        jComboBoxMarca.setModel(new javax.swing.DefaultComboBoxModel<String>(new String[] { "Nissan", "Buggati", "Mitsubishi", "Mazda", "Toyota ", "Volkswagen", " ", " " }));
+        jComboBoxMarca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox1ActionPerformed(evt);
+                jComboBoxMarcaActionPerformed(evt);
             }
         });
-        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 25, -1, -1));
+        jPanel1.add(jComboBoxMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 25, -1, -1));
 
-        jLabel2.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Modelo: ");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 28, -1, -1));
+        jLabelModelo.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jLabelModelo.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelModelo.setText("Modelo: ");
+        jPanel1.add(jLabelModelo, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 28, -1, -1));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2016", "2017", "2018", "2019", " " }));
-        jPanel1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 25, -1, -1));
+        jComboBoxModelo.setModel(new javax.swing.DefaultComboBoxModel<String>(new String[] { "2016", "2017", "2018", "2019", " " }));
+        jPanel1.add(jComboBoxModelo, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 25, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Matricula: ");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
+        jLabelMatricula.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jLabelMatricula.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelMatricula.setText("Matricula: ");
+        jPanel1.add(jLabelMatricula, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Velocidad: ");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 98, -1, 10));
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 132, -1));
-        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 90, 135, -1));
+        jLabelDistancia.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jLabelDistancia.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelDistancia.setText("Distancia");
+        jPanel1.add(jLabelDistancia, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 98, -1, 10));
+        jPanel1.add(jTextFieldMatricula, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 132, -1));
+        jPanel1.add(jTextFieldDistancia, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 90, 135, -1));
 
-        jButton1.setBackground(new java.awt.Color(255, 204, 0));
-        jButton1.setText("Registrar");
-        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+        jButtonRegistrar.setBackground(new java.awt.Color(255, 204, 0));
+        jButtonRegistrar.setText("Registrar");
+        jButtonRegistrar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton1MouseClicked(evt);
+                jButtonRegistrarMouseClicked(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, -1, -1));
+        jPanel1.add(jButtonRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, -1, -1));
 
         jButton2.setBackground(new java.awt.Color(255, 204, 0));
         jButton2.setText("Cancelar");
@@ -115,12 +115,12 @@ public class VistaVehiculoDeportivos extends javax.swing.JFrame {
         });
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 200, -1, -1));
 
-        jButton4.setBackground(new java.awt.Color(255, 204, 0));
-        jButton4.setText("jButton4");
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, -1, -1));
+        jButtonSalir.setBackground(new java.awt.Color(255, 204, 0));
+        jButtonSalir.setText("jButton4");
+        jPanel1.add(jButtonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, -1, -1));
 
-        jTable1.setBackground(new java.awt.Color(255, 204, 153));
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        jTableDatos.setBackground(new java.awt.Color(255, 204, 153));
+        jTableDatos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
@@ -131,22 +131,22 @@ public class VistaVehiculoDeportivos extends javax.swing.JFrame {
                 "Marca", "Modelo", "Tipo", "Matricula", "Velocidad", "TwinTurbo", "SuperCharger"
             }
         ));
-        jTable1.addMouseListener(new java.awt.event.MouseAdapter() {
+        jTableDatos.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jTable1MouseClicked(evt);
+                jTableDatosMouseClicked(evt);
             }
         });
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(jTableDatos);
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(8, 270, 580, 219));
 
-        jLabel5.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("Tipo:");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(383, 28, -1, -1));
+        jLabelTipo.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jLabelTipo.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelTipo.setText("Tipo:");
+        jPanel1.add(jLabelTipo, new org.netbeans.lib.awtextra.AbsoluteConstraints(383, 28, -1, -1));
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sedan", "Deportivo", "Jdm", "Autobus", " " }));
-        jPanel1.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 25, -1, -1));
+        jComboBoxTipo.setModel(new javax.swing.DefaultComboBoxModel<String>(new String[] { "Sedan", "Deportivo", "Jdm", "Autobus", " " }));
+        jPanel1.add(jComboBoxTipo, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 25, -1, -1));
 
         jButton5.setBackground(new java.awt.Color(255, 204, 0));
         jButton5.setText("Regresar");
@@ -157,20 +157,20 @@ public class VistaVehiculoDeportivos extends javax.swing.JFrame {
         });
         jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 520, -1, -1));
 
-        jRadioButton1.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
-        jRadioButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton1.setText("TwinTurbo");
-        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButtonTwinTurbo.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jRadioButtonTwinTurbo.setForeground(new java.awt.Color(255, 255, 255));
+        jRadioButtonTwinTurbo.setText("TwinTurbo");
+        jRadioButtonTwinTurbo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton1ActionPerformed(evt);
+                jRadioButtonTwinTurboActionPerformed(evt);
             }
         });
-        jPanel1.add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, -1, -1));
+        jPanel1.add(jRadioButtonTwinTurbo, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, -1, -1));
 
-        jRadioButton2.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
-        jRadioButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton2.setText("Supercargador");
-        jPanel1.add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 140, -1, -1));
+        jRadioButtonSuperCargador.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jRadioButtonSuperCargador.setForeground(new java.awt.Color(255, 255, 255));
+        jRadioButtonSuperCargador.setText("Supercargador");
+        jPanel1.add(jRadioButtonSuperCargador, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 140, -1, -1));
 
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Fondo2.jpg"))); // NOI18N
@@ -191,22 +191,22 @@ public class VistaVehiculoDeportivos extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+    private void jComboBoxMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxMarcaActionPerformed
        
-    }//GEN-LAST:event_jComboBox1ActionPerformed
+    }//GEN-LAST:event_jComboBoxMarcaActionPerformed
 
-    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+    private void jButtonRegistrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonRegistrarMouseClicked
         Deportivo coche = new Deportivo();
-        coche.setMarca( this.jComboBox1.getSelectedItem().toString());
-        coche.setModelo(this.jComboBox2.getSelectedItem().toString());
-        coche.setTipo(this.jComboBox3.getSelectedItem().toString());
-        coche.setMatricula(this.jTextField1.getText());
-        coche.setVelocidad(Double.parseDouble(this.jTextField2.getText()));
-        coche.setTwinturbo(this.jRadioButton1.isSelected());
-        coche.setSupercharger(this.jRadioButton2.isSelected());
+        coche.setMarca( this.jComboBoxMarca.getSelectedItem().toString());
+        coche.setModelo(this.jComboBoxModelo.getSelectedItem().toString());
+        coche.setTipo(this.jComboBoxTipo.getSelectedItem().toString());
+        coche.setMatricula(this.jTextFieldMatricula.getText());
+        coche.setVelocidad(Double.parseDouble(this.jTextFieldDistancia.getText()));
+        coche.setTwinturbo(this.jRadioButtonTwinTurbo.isSelected());
+        coche.setSupercharger(this.jRadioButtonSuperCargador.isSelected());
         listaDeportivo.add(coche);
         controller.Mostrar(listaDeportivo, auto);
-    }//GEN-LAST:event_jButton1MouseClicked
+    }//GEN-LAST:event_jButtonRegistrarMouseClicked
 
     private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
      System.exit(0);
@@ -215,7 +215,7 @@ public class VistaVehiculoDeportivos extends javax.swing.JFrame {
     private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
       int confirm = JOptionPane.showConfirmDialog(this, "¿Estás seguro de que deseas eliminar el coche seleccionado? Una vez eliminado no se podra recuperar", "Confirmar eliminación de coche", JOptionPane.YES_NO_OPTION);
         if (confirm == JOptionPane.YES_OPTION) {
-            String mat = jTable1.getValueAt(jTable1.getSelectedRow(), 3).toString();
+            String mat = jTableDatos.getValueAt(jTableDatos.getSelectedRow(), 3).toString();
             controller.Eliminar(listaDeportivo, mat);
             controller.Mostrar(listaDeportivo, auto);
         }
@@ -224,34 +224,30 @@ public class VistaVehiculoDeportivos extends javax.swing.JFrame {
    
     }//GEN-LAST:event_jButton3MouseClicked
 
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+    private void jRadioButtonTwinTurboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonTwinTurboActionPerformed
        
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
+    }//GEN-LAST:event_jRadioButtonTwinTurboActionPerformed
 
-    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
-              this.jComboBox1.setSelectedItem(jTable1.getValueAt(jTable1.getSelectedRow(), 0).toString());
-        this.jComboBox2.setSelectedItem(jTable1.getValueAt(jTable1.getSelectedRow(), 1).toString());
-        this.jComboBox3.setSelectedItem(jTable1.getValueAt(jTable1.getSelectedRow(), 2).toString());
-        String datoRadio = jTable1.getValueAt(jTable1.getSelectedRow(), 5).toString();
+    private void jTableDatosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTableDatosMouseClicked
+              this.jComboBoxMarca.setSelectedItem(jTableDatos.getValueAt(jTableDatos.getSelectedRow(), 0).toString());
+        this.jComboBoxModelo.setSelectedItem(jTableDatos.getValueAt(jTableDatos.getSelectedRow(), 1).toString());
+        this.jComboBoxTipo.setSelectedItem(jTableDatos.getValueAt(jTableDatos.getSelectedRow(), 2).toString());
+        String datoRadio = jTableDatos.getValueAt(jTableDatos.getSelectedRow(), 5).toString();
         boolean siRadio = Boolean.parseBoolean(datoRadio);
-        this.jRadioButton1.setSelected(siRadio);
-        String datoRadio2 = jTable1.getValueAt(jTable1.getSelectedRow(), 6).toString();
+        this.jRadioButtonTwinTurbo.setSelected(siRadio);
+        String datoRadio2 = jTableDatos.getValueAt(jTableDatos.getSelectedRow(), 6).toString();
         boolean siRadio2 = Boolean.parseBoolean(datoRadio2);
-         this.jRadioButton2.setSelected(siRadio);
+         this.jRadioButtonSuperCargador.setSelected(siRadio);
         
-        this.jTextField1.setText(jTable1.getValueAt(jTable1.getSelectedRow(), 3).toString());
-        this.jTextField2.setText(jTable1.getValueAt(jTable1.getSelectedRow(), 4).toString());
-    }//GEN-LAST:event_jTable1MouseClicked
+        this.jTextFieldMatricula.setText(jTableDatos.getValueAt(jTableDatos.getSelectedRow(), 3).toString());
+        this.jTextFieldDistancia.setText(jTableDatos.getValueAt(jTableDatos.getSelectedRow(), 4).toString());
+    }//GEN-LAST:event_jTableDatosMouseClicked
 
     
     
   
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+       
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -259,61 +255,36 @@ public class VistaVehiculoDeportivos extends javax.swing.JFrame {
                     break;
                 }
             }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(VistaVehiculoDeportivos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(VistaVehiculoDeportivos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(VistaVehiculoDeportivos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(VistaVehiculoDeportivos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new VistaVehiculoDeportivos().setVisible(true);
-            }
+      
+        java.awt.EventQueue.invokeLater(() -> {
+            new VistaVehiculoDeportivos().setVisible(true);
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
+    private javax.swing.JButton jButtonRegistrar;
+    private javax.swing.JButton jButtonSalir;
+    private javax.swing.JComboBox<String> jComboBoxMarca;
+    private javax.swing.JComboBox<String> jComboBoxModelo;
+    private javax.swing.JComboBox<String> jComboBoxTipo;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabelDistancia;
+    private javax.swing.JLabel jLabelMarca;
+    private javax.swing.JLabel jLabelMatricula;
+    private javax.swing.JLabel jLabelModelo;
+    private javax.swing.JLabel jLabelTipo;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JRadioButton jRadioButtonSuperCargador;
+    private javax.swing.JRadioButton jRadioButtonTwinTurbo;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTable jTableDatos;
+    private javax.swing.JTextField jTextFieldDistancia;
+    private javax.swing.JTextField jTextFieldMatricula;
     // End of variables declaration//GEN-END:variables
 }

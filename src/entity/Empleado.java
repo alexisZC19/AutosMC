@@ -11,11 +11,38 @@ package entity;
 public class Empleado extends Persona{
     private String codEmpleado;
     private String seccion;
-    private int ventas;
-    private Cliente cliente[]=new Cliente[5];
+
 
     public Empleado() {
     }
+
+    public Empleado(String codEmpleado, String seccion) {
+        this.codEmpleado = codEmpleado;
+        this.seccion = seccion;
+    }
+
+    public Empleado(String codEmpleado, String seccion, String nombre, int edad, String IDE) {
+        super(nombre, edad, IDE);
+        this.codEmpleado = codEmpleado;
+        this.seccion = seccion;
+    }
+
+    public String getCodEmpleado() {
+        return codEmpleado;
+    }
+
+    public void setCodEmpleado(String codEmpleado) {
+        this.codEmpleado = codEmpleado;
+    }
+
+    public String getSeccion() {
+        return seccion;
+    }
+
+    public void setSeccion(String seccion) {
+        this.seccion = seccion;
+    }
+    
 
   
     

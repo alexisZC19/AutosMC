@@ -12,11 +12,40 @@ public class Cliente extends Persona{
 
     private String codCliente;
     private String telefono;
-    private Vehiculo vehiculo[]=new Vehiculo[5];
 
     public Cliente() {
     }
 
+    public Cliente(String codCliente, String telefono) {
+        this.codCliente = codCliente;
+        this.telefono = telefono;
+    }
+
+    public Cliente(String codCliente, String telefono, String nombre, int edad, String IDE) {
+        super(nombre, edad, IDE);
+        this.codCliente = codCliente;
+        this.telefono = telefono;
+    }
+
+    public String getCodCliente() {
+        return codCliente;
+    }
+
+    public void setCodCliente(String codCliente) {
+        this.codCliente = codCliente;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    
+   
+   
  
     
 

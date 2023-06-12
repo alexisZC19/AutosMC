@@ -22,13 +22,13 @@ public class RegistroDeportivoServiceImpl  implements IRegistroDeportivoService{
     }
 
     @Override
-    public void mostrarRegistros(List<Deportivo> listaSedanes, DefaultTableModel auto) {
-        modelo.mostrarRegistros(listaSedanes, auto);
+    public void mostrarRegistros(List<Deportivo> listaDeportivo, DefaultTableModel auto) {
+        modelo.mostrarRegistros(listaDeportivo, auto);
     }
 
     @Override
-    public void eliminarRegistro(List<Deportivo> listaSedanes, String matricula) {
-        modelo.eliminarRegistro(listaSedanes, matricula);
+    public void eliminarRegistro(List<Deportivo> listaDeportivo, String matricula) {
+        modelo.eliminarRegistro(listaDeportivo, matricula);
     }
 
    

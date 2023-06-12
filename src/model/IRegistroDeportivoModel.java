@@ -15,8 +15,8 @@ import javax.swing.table.DefaultTableModel;
 public interface IRegistroDeportivoModel {
     public void crearRegistro(List<Deportivo> listaDeportivo, Deportivo coche);
 
-    public void mostrarRegistros(List<Deportivo> listaSedanes, DefaultTableModel auto);
+    public void mostrarRegistros(List<Deportivo> listaDeportivo, DefaultTableModel auto);
 
-    public void eliminarRegistro(List<Deportivo> listaSedanes, String matricula);
+    public void eliminarRegistro(List<Deportivo> listaDeportivo, String matricula);
     
 }
