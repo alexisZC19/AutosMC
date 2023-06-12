@@ -3,7 +3,7 @@
  * fecha de creacion: 19/05/2023
  * fecha modificacion:11/06/23
  * Descripcion: Se creo la clase jFrame
- *              para registrar Deportivo
+ *              para registrar Deportivo.
  *
  */
 package View;
@@ -207,15 +207,10 @@ public class VistaVehiculoDeportivo extends javax.swing.JFrame {
         coche.setMatricula(this.jTextFieldMatricula.getText());
         
         coche.setTiempo(Double.parseDouble(this.jTextTiempo.getText()));               
-        coche.setDistancia(Double.parseDouble(this.jTextFieldDistancia.getText()));
-        
+        coche.setDistancia(Double.parseDouble(
+                this.jTextFieldDistancia.getText()));
+  
         coche.setVelocidad(coche.getDistancia());
-        
-        
-        
-        
-        
-        
         coche.setTwinturbo(this.jRadioButtonTwinTurbo.isSelected());
         controller.RegistrarDeportivos(listaDeportivo, coche);
         controller.Mostrar(listaDeportivo, auto);
@@ -226,7 +221,7 @@ public class VistaVehiculoDeportivo extends javax.swing.JFrame {
 
     
     /**
-     * es el botton de salir
+     * Mediante el system podemos salir de la aplicacion
      * @param evt 
      */
     private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
@@ -238,9 +233,12 @@ public class VistaVehiculoDeportivo extends javax.swing.JFrame {
      * @param evt 
      */
     private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
-        int confirm = JOptionPane.showConfirmDialog(this, "¿Estás seguro de que deseas eliminar el coche seleccionado? Una vez eliminado no se podra recuperar", "Confirmar eliminación de coche", JOptionPane.YES_NO_OPTION);
+        int confirm = JOptionPane.showConfirmDialog(this, 
+                "¿Estás seguro de que deseas eliminar ? ", 
+                "Confirmar eliminación de coche", JOptionPane.YES_NO_OPTION);
         if (confirm == JOptionPane.YES_OPTION) {
-            String mat = jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 3).toString();
+            String mat = jTableRegistros.getValueAt(
+                    jTableRegistros.getSelectedRow(), 3).toString();
             
             this.controller.Eliminar(listaDeportivo, mat);
             this.controller.Mostrar(listaDeportivo, auto);
@@ -260,13 +258,15 @@ public class VistaVehiculoDeportivo extends javax.swing.JFrame {
         coche.setModelo(this.jComboBoxModelo.getSelectedItem().toString());
         coche.setTipo(this.jComboBoxTipo.getSelectedItem().toString());
         coche.setMatricula(this.jTextFieldMatricula.getText());
-        coche.setVelocidad(Double.parseDouble(this.jTextFieldDistancia.getText()));
+        coche.setVelocidad(Double.parseDouble(
+                this.jTextFieldDistancia.getText()));
         coche.setTwinturbo(this.jRadioButtonTwinTurbo.isSelected());
         coche.setSupercharger(this.jRadioButtonSuperCharger.isSelected());
    
         int selectedRow = jTableRegistros.getSelectedRow();
         if (selectedRow != -1) {
-            String codigo = jTableRegistros.getValueAt(selectedRow, 3).toString();
+            String codigo = 
+                    jTableRegistros.getValueAt(selectedRow, 3).toString();
             for (int i=0; i < listaDeportivo.size(); i++) {
                 Deportivo cocheActual = listaDeportivo.get(i);
                 if (cocheActual.getMatricula().equals(codigo)) {
@@ -285,58 +285,60 @@ public class VistaVehiculoDeportivo extends javax.swing.JFrame {
      * @param evt 
      */
     private void jTableRegistrosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTableRegistrosMouseClicked
-        this.jComboBoxMarca.setSelectedItem(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 0).toString());
-        this.jComboBoxModelo.setSelectedItem(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 1).toString());
-        this.jComboBoxTipo.setSelectedItem(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 2).toString());
-        String datoRadio = jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 5).toString();
+        this.jComboBoxMarca.setSelectedItem(
+                jTableRegistros.getValueAt(
+                        jTableRegistros.getSelectedRow(), 0).toString());
+        this.jComboBoxModelo.setSelectedItem(
+                jTableRegistros.getValueAt(
+                        jTableRegistros.getSelectedRow(), 1).toString());
+        this.jComboBoxTipo.setSelectedItem(
+                jTableRegistros.getValueAt(
+                        jTableRegistros.getSelectedRow(), 2).toString());
+        String datoRadio = jTableRegistros.getValueAt(
+                jTableRegistros.getSelectedRow(), 5).toString();
         boolean siRadio = Boolean.parseBoolean(datoRadio);
         this.jRadioButtonTwinTurbo.setSelected(siRadio);
-        this.jTextFieldMatricula.setText(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 3).toString());
-        this.jTextFieldDistancia.setText(jTableRegistros.getValueAt(jTableRegistros.getSelectedRow(), 4).toString());
+        this.jTextFieldMatricula.setText(
+                jTableRegistros.getValueAt(
+                        jTableRegistros.getSelectedRow(), 3).toString());
+        this.jTextFieldDistancia.setText(
+                jTableRegistros.getValueAt(
+                        jTableRegistros.getSelectedRow(), 4).toString());
     }//GEN-LAST:event_jTableRegistrosMouseClicked
 
    
 
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+       
         try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+            for (javax.swing.UIManager.LookAndFeelInfo info : 
+                    javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(VistaVehiculoDeportivo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(
+                    VistaVehiculoDeportivo.class.getName()).log(
+                            java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(VistaVehiculoDeportivo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(
+                    VistaVehiculoDeportivo.class.getName()).log(
+                            java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(VistaVehiculoDeportivo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(
+                    VistaVehiculoDeportivo.class.getName()).log(
+                            java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(VistaVehiculoDeportivo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(
+                    VistaVehiculoDeportivo.class.getName()).log(
+                            java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
+       
+       
 
-        /* Create and display the form */
+      
         java.awt.EventQueue.invokeLater(() -> {
             new VistaVehiculoDeportivo().setVisible(true);
         });
