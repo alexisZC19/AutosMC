@@ -21,8 +21,8 @@ public class Cliente extends Persona{
         this.telefono = telefono;
     }
 
-    public Cliente(String codCliente, String telefono, String nombre, int edad, String IDE) {
-        super(nombre, edad, IDE);
+    public Cliente(String codCliente, String telefono, String nombre, int edad) {
+        super(nombre, edad);
         this.codCliente = codCliente;
         this.telefono = telefono;
     }
@@ -43,13 +43,7 @@ public class Cliente extends Persona{
         this.telefono = telefono;
     }
 
-    public void addRow(Object[] fila) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
     
-   
-   
  
     
 

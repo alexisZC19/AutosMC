@@ -125,13 +125,13 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
         jTableRegistros.setBackground(new java.awt.Color(255, 204, 153));
         jTableRegistros.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
             },
             new String [] {
-                "Nombre", "Edad", "IDE", "Cod.Cliente", "Telefono"
+                "Nombre", "Edad", "Cod.Cliente", "Telefono"
             }
         ));
         jTableRegistros.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -167,7 +167,7 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
     private void jButtonRegistrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonRegistrarMouseClicked
         Cliente persona = new Cliente();
        
-        persona.setIDE(this.jTextFieldIDE.getText());
+       
         
         persona.setEdad((int) Double.parseDouble(this.jTextFieldEdad.getText()));               
         persona.setTelefono(this.jTextFieldTelefono.getText());
@@ -222,7 +222,7 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
         Cliente persona = null;
 
        
-        persona.setIDE(this.jTextFieldIDE.getText());
+        persona.setCodCliente(this.jTextFieldIDE.getText());
         persona.setEdad((int) Double.parseDouble(this.jTextFieldEdad.getText()));
         
    
@@ -231,7 +231,7 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
             String codigo = jTableRegistros.getValueAt(selectedRow, 3).toString();
             for (int i=0; i < listaCliente.size(); i++) {
                 Cliente personaActual = listaCliente.get(i);
-                if (personaActual.getIDE().equals(codigo)) {
+                if (personaActual.getCodCliente().equals(codigo)) {
                     listaCliente.set(i, persona);
                     controller.Mostrar(listaCliente, cliente);
                     break;

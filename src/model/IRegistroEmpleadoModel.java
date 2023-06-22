@@ -15,8 +15,8 @@ import javax.swing.table.DefaultTableModel;
 public interface IRegistroEmpleadoModel {
     public void crearRegistro(List<Empleado> listaEmpleado, Empleado persona);
 
-    public void mostrarRegistros(List<Empleado> listaEmpleado, DefaultTableModel cliente);
+    public void mostrarRegistros(List<Empleado> listaEmpleado, DefaultTableModel trabajador);
 
-    public void eliminarRegistro(List<Empleado> listaEmpleado, String IDE);
+    public void eliminarRegistro(List<Empleado> listaEmpleado, String codEmpleado);
     
 }

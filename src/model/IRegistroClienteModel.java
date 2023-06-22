@@ -17,6 +17,6 @@ public interface IRegistroClienteModel {
 
     public void mostrarRegistros(List<Cliente> listaCliente, DefaultTableModel cliente);
 
-    public void eliminarRegistro(List<Cliente> listaCliente, String IDE);
+    public void eliminarRegistro(List<Cliente> listaCliente, String codCliente);
     
 }

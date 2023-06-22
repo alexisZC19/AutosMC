@@ -31,9 +31,9 @@ public class RegistroEmpleadoModelImpl implements IRegistroEmpleadoModel {
     }
 
     @Override
-    public void eliminarRegistro(List<Empleado> listaEmpleado, String IDE) {
+    public void eliminarRegistro(List<Empleado> listaEmpleado, String codEmpleado) {
         for (Empleado persona : listaEmpleado) {
-            if (persona.getIDE().compareTo(IDE) == 0) {
+            if (persona.getCodEmpleado().compareTo(codEmpleado) == 0) {
                 listaEmpleado.remove(persona);
                 break;
             }

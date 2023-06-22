@@ -25,18 +25,17 @@ public class RegistroClienteModelImpl implements IRegistroClienteModel {
             Object[] fila = new Object[5];
             fila[0] = persona.getNombre();
             fila[1] = persona.getEdad();
-            fila[2] = persona.getIDE();
-            fila[3] = persona.getCodCliente();
-            fila[4] = persona.getTelefono();
+            fila[2] = persona.getCodCliente();
+            fila[3] = persona.getTelefono();
             cliente.addRow(fila);
 
         }
     }
 
     @Override
-    public void eliminarRegistro(List<Cliente> listaCliente, String IDE) {
+    public void eliminarRegistro(List<Cliente> listaCliente, String codCliente) {
         for (Cliente persona : listaCliente) {
-            if (persona.getIDE().compareTo(IDE) == 0) {
+            if (persona.getCodCliente().compareTo(codCliente) == 0) {
                 listaCliente.remove(persona);
                 break;
             }

@@ -27,8 +27,8 @@ public class RegistroClienteServiceImpl  implements IRegistroClienteService{
     }
 
     @Override
-    public void eliminarRegistro(List<Cliente> listaCliente, String IDE) {
-        modelo.eliminarRegistro(listaCliente, IDE);
+    public void eliminarRegistro(List<Cliente> listaCliente, String codCliente) {
+        modelo.eliminarRegistro(listaCliente, codCliente);
     }
 
 

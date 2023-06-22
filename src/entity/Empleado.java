@@ -21,11 +21,13 @@ public class Empleado extends Persona{
         this.seccion = seccion;
     }
 
-    public Empleado(String codEmpleado, String seccion, String nombre, int edad, String IDE) {
-        super(nombre, edad, IDE);
+    public Empleado(String codEmpleado, String seccion, String nombre, int edad) {
+        super(nombre, edad);
         this.codEmpleado = codEmpleado;
         this.seccion = seccion;
     }
+
+    
 
     public String getCodEmpleado() {
         return codEmpleado;

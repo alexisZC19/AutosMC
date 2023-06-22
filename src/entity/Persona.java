@@ -11,15 +11,15 @@ package entity;
 public class Persona {
     private String nombre;
     private int edad;
-    private String IDE;
+   
 
     public Persona() {
     }
 
-    public Persona(String nombre, int edad, String IDE) {
+    public Persona(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
-        this.IDE = IDE;
+        
     }
     
 
@@ -39,13 +39,4 @@ public class Persona {
         this.edad = edad;
     }
 
-    public String getIDE() {
-        return IDE;
-    }
-
-    public void setIDE(String IDE) {
-        this.IDE = IDE;
-    }
-    
-    
 }

@@ -18,18 +18,20 @@ public class RegistroSedanesServiceImpl  implements IRegistroSedanesService{
 
     @Override
     public void crearRegistro(List<Sedanes> listaSedanes, Sedanes coche) {
-        modelo.crearRegistro(listaSedanes, coche);
+     modelo.crearRegistro(listaSedanes, coche);
     }
 
     @Override
     public void mostrarRegistros(List<Sedanes> listaSedanes, DefaultTableModel auto) {
         modelo.mostrarRegistros(listaSedanes, auto);
-    }
+  }
 
     @Override
     public void eliminarRegistro(List<Sedanes> listaSedanes, String matricula) {
-        modelo.eliminarRegistro(listaSedanes, matricula);
+        
+        modelo.eliminarRegistro(listaSedanes, matricula);    
     }
+    
 
 
     
