@@ -32,9 +32,9 @@ public class RegistroClienteController {
 
     }
 
-    public void eliminarRegistro(List<Cliente> listaCliente, String IDE){
+    public void eliminarRegistro(List<Cliente> listaCliente, String codCliente){
 
-        service.eliminarRegistro(listaCliente, IDE);
+        service.eliminarRegistro(listaCliente, codCliente);
     }
 
 }

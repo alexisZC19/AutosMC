@@ -32,9 +32,9 @@ public class RegistroEmpleadoController {
         service.mostrarRegistros(listaEmpleado, trabajador);
     }
 
-    public void eliminarRegistro(List<Empleado> listaEmpleado, String IDE){
+    public void eliminarRegistro(List<Empleado> listaEmpleado, String codEmpleado){
 
-        service.eliminarRegistro(listaEmpleado, IDE);
+        service.eliminarRegistro(listaEmpleado, codEmpleado);
     }
 
 }
