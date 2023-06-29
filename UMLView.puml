@@ -1,0 +1,221 @@
+@startuml
+abstract class entity.Vehiculo
+annotation java.lang.Override
+annotation java.lang.SuppressWarnings
+class View.MenuRegistros
+class View.RegistrodeVentas
+class View.VistaEmpleado
+class View.VistaPersonaCliente
+class View.VistaVehiculoCamioneta
+class View.VistaVehiculoDeportivo
+class View.VistaVehiculoSedan
+class controller.RegistroCamionetaController
+class controller.RegistroClienteController
+class controller.RegistroDeportivoController
+class controller.RegistroEmpleadoController
+class controller.RegistroSedanesController
+class entity.Camioneta
+class entity.Cliente
+class entity.Deportivo
+class entity.Empleado
+class entity.Persona
+class entity.Sedanes
+class java.util.ArrayList
+class java.util.List
+class javax.swing.JFrame
+class javax.swing.JOptionPane
+class javax.swing.table.DefaultTableModel
+class model.RegistroCamionetaModelImpl
+class model.RegistroClienteModelImpl
+class model.RegistroDeportivoModelImpl
+class model.RegistroEmpleadoModelImpl
+class model.RegistroSedanesModelImpl
+class service.RegistroCamionetaServiceImpl
+class service.RegistroClienteServiceImpl
+class service.RegistroDeportivoServiceImpl
+class service.RegistroEmpleadoServiceImpl
+class service.RegistroSedanesServiceImpl
+interface model.IRegistroCamionetaModel
+interface model.IRegistroClienteModel
+interface model.IRegistroDeportivoModel
+interface model.IRegistroEmpleadoModel
+interface model.IRegistroSedanesModel
+interface service.IRegistroCamionetaService
+interface service.IRegistroClienteService
+interface service.IRegistroDeportivoService
+interface service.IRegistroEmpleadoService
+interface service.IRegistroSedanesService
+View.MenuRegistros ..> java.lang.SuppressWarnings
+View.MenuRegistros --|> javax.swing.JFrame
+View.RegistrodeVentas ..> java.lang.SuppressWarnings
+View.RegistrodeVentas ..> controller.RegistroCamionetaController
+View.RegistrodeVentas ..> entity.Camioneta
+View.RegistrodeVentas ..> java.util.ArrayList
+View.RegistrodeVentas ..> java.util.List
+View.RegistrodeVentas --|> javax.swing.JFrame
+View.RegistrodeVentas ..> javax.swing.JOptionPane
+View.RegistrodeVentas ..> javax.swing.table.DefaultTableModel
+View.VistaEmpleado ..> java.lang.SuppressWarnings
+View.VistaEmpleado ..> controller.RegistroSedanesController
+View.VistaEmpleado ..> entity.Sedanes
+View.VistaEmpleado ..> java.util.ArrayList
+View.VistaEmpleado ..> java.util.List
+View.VistaEmpleado --|> javax.swing.JFrame
+View.VistaEmpleado ..> javax.swing.JOptionPane
+View.VistaEmpleado ..> javax.swing.table.DefaultTableModel
+View.VistaPersonaCliente ..> java.lang.SuppressWarnings
+View.VistaPersonaCliente ..> controller.RegistroClienteController
+View.VistaPersonaCliente ..> entity.Cliente
+View.VistaPersonaCliente ..> java.util.ArrayList
+View.VistaPersonaCliente ..> java.util.List
+View.VistaPersonaCliente --|> javax.swing.JFrame
+View.VistaPersonaCliente ..> javax.swing.JOptionPane
+View.VistaPersonaCliente ..> javax.swing.table.DefaultTableModel
+View.VistaVehiculoCamioneta ..> java.lang.SuppressWarnings
+View.VistaVehiculoCamioneta ..> controller.RegistroCamionetaController
+View.VistaVehiculoCamioneta ..> entity.Camioneta
+View.VistaVehiculoCamioneta ..> java.util.ArrayList
+View.VistaVehiculoCamioneta ..> java.util.List
+View.VistaVehiculoCamioneta --|> javax.swing.JFrame
+View.VistaVehiculoCamioneta ..> javax.swing.JOptionPane
+View.VistaVehiculoCamioneta ..> javax.swing.table.DefaultTableModel
+View.VistaVehiculoDeportivo ..> java.lang.SuppressWarnings
+View.VistaVehiculoDeportivo ..> controller.RegistroDeportivoController
+View.VistaVehiculoDeportivo ..> entity.Deportivo
+View.VistaVehiculoDeportivo ..> java.util.ArrayList
+View.VistaVehiculoDeportivo ..> java.util.List
+View.VistaVehiculoDeportivo --|> javax.swing.JFrame
+View.VistaVehiculoDeportivo ..> javax.swing.JOptionPane
+View.VistaVehiculoDeportivo ..> javax.swing.table.DefaultTableModel
+View.VistaVehiculoSedan ..> java.lang.SuppressWarnings
+View.VistaVehiculoSedan ..> controller.RegistroSedanesController
+View.VistaVehiculoSedan ..> entity.Sedanes
+View.VistaVehiculoSedan ..> java.util.ArrayList
+View.VistaVehiculoSedan ..> java.util.List
+View.VistaVehiculoSedan --|> javax.swing.JFrame
+View.VistaVehiculoSedan ..> javax.swing.JOptionPane
+View.VistaVehiculoSedan ..> javax.swing.table.DefaultTableModel
+controller.RegistroCamionetaController ..> entity.Camioneta
+controller.RegistroCamionetaController ..> java.util.List
+controller.RegistroCamionetaController ..> javax.swing.table.DefaultTableModel
+controller.RegistroCamionetaController ..> service.RegistroCamionetaServiceImpl
+controller.RegistroCamionetaController ..> service.IRegistroCamionetaService
+controller.RegistroClienteController ..> entity.Cliente
+controller.RegistroClienteController ..> java.util.List
+controller.RegistroClienteController ..> javax.swing.table.DefaultTableModel
+controller.RegistroClienteController ..> service.RegistroClienteServiceImpl
+controller.RegistroClienteController ..> service.IRegistroClienteService
+controller.RegistroDeportivoController ..> entity.Deportivo
+controller.RegistroDeportivoController ..> java.util.List
+controller.RegistroDeportivoController ..> javax.swing.table.DefaultTableModel
+controller.RegistroDeportivoController ..> service.RegistroDeportivoServiceImpl
+controller.RegistroDeportivoController ..> service.IRegistroDeportivoService
+controller.RegistroEmpleadoController ..> entity.Empleado
+controller.RegistroEmpleadoController ..> java.util.List
+controller.RegistroEmpleadoController ..> javax.swing.table.DefaultTableModel
+controller.RegistroEmpleadoController ..> service.RegistroEmpleadoServiceImpl
+controller.RegistroEmpleadoController ..> service.IRegistroEmpleadoService
+controller.RegistroSedanesController ..> entity.Sedanes
+controller.RegistroSedanesController ..> java.util.List
+controller.RegistroSedanesController ..> javax.swing.table.DefaultTableModel
+controller.RegistroSedanesController ..> service.RegistroSedanesServiceImpl
+controller.RegistroSedanesController ..> service.IRegistroSedanesService
+entity.Camioneta --|> entity.Vehiculo
+entity.Camioneta ..> java.lang.Override
+entity.Cliente --|> entity.Persona
+entity.Deportivo --|> entity.Vehiculo
+entity.Deportivo ..> java.lang.Override
+entity.Empleado --|> entity.Persona
+entity.Sedanes --|> entity.Vehiculo
+entity.Sedanes ..> java.lang.Override
+model.RegistroCamionetaModelImpl ..> java.lang.Override
+model.RegistroCamionetaModelImpl ..> entity.Camioneta
+model.RegistroCamionetaModelImpl ..> java.util.List
+model.RegistroCamionetaModelImpl ..> javax.swing.table.DefaultTableModel
+model.RegistroCamionetaModelImpl --|> model.IRegistroCamionetaModel
+model.RegistroClienteModelImpl ..> java.lang.Override
+model.RegistroClienteModelImpl ..> entity.Cliente
+model.RegistroClienteModelImpl ..> java.util.List
+model.RegistroClienteModelImpl ..> javax.swing.table.DefaultTableModel
+model.RegistroClienteModelImpl --|> model.IRegistroClienteModel
+model.RegistroDeportivoModelImpl ..> java.lang.Override
+model.RegistroDeportivoModelImpl ..> entity.Deportivo
+model.RegistroDeportivoModelImpl ..> java.util.List
+model.RegistroDeportivoModelImpl ..> javax.swing.table.DefaultTableModel
+model.RegistroDeportivoModelImpl --|> model.IRegistroDeportivoModel
+model.RegistroEmpleadoModelImpl ..> java.lang.Override
+model.RegistroEmpleadoModelImpl ..> entity.Empleado
+model.RegistroEmpleadoModelImpl ..> java.util.List
+model.RegistroEmpleadoModelImpl ..> javax.swing.table.DefaultTableModel
+model.RegistroEmpleadoModelImpl --|> model.IRegistroEmpleadoModel
+model.RegistroSedanesModelImpl ..> java.lang.Override
+model.RegistroSedanesModelImpl ..> entity.Sedanes
+model.RegistroSedanesModelImpl ..> java.util.List
+model.RegistroSedanesModelImpl ..> javax.swing.table.DefaultTableModel
+model.RegistroSedanesModelImpl --|> model.IRegistroSedanesModel
+service.RegistroCamionetaServiceImpl ..> java.lang.Override
+service.RegistroCamionetaServiceImpl ..> entity.Camioneta
+service.RegistroCamionetaServiceImpl ..> java.util.List
+service.RegistroCamionetaServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroCamionetaServiceImpl ..> model.RegistroCamionetaModelImpl
+service.RegistroCamionetaServiceImpl ..> model.IRegistroCamionetaModel
+service.RegistroCamionetaServiceImpl --|> service.IRegistroCamionetaService
+service.RegistroClienteServiceImpl ..> java.lang.Override
+service.RegistroClienteServiceImpl ..> entity.Cliente
+service.RegistroClienteServiceImpl ..> java.util.List
+service.RegistroClienteServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroClienteServiceImpl ..> model.RegistroClienteModelImpl
+service.RegistroClienteServiceImpl ..> model.IRegistroClienteModel
+service.RegistroClienteServiceImpl --|> service.IRegistroClienteService
+service.RegistroDeportivoServiceImpl ..> java.lang.Override
+service.RegistroDeportivoServiceImpl ..> entity.Deportivo
+service.RegistroDeportivoServiceImpl ..> java.util.List
+service.RegistroDeportivoServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroDeportivoServiceImpl ..> model.RegistroDeportivoModelImpl
+service.RegistroDeportivoServiceImpl ..> model.IRegistroDeportivoModel
+service.RegistroDeportivoServiceImpl --|> service.IRegistroDeportivoService
+service.RegistroEmpleadoServiceImpl ..> java.lang.Override
+service.RegistroEmpleadoServiceImpl ..> entity.Empleado
+service.RegistroEmpleadoServiceImpl ..> java.util.List
+service.RegistroEmpleadoServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroEmpleadoServiceImpl ..> model.RegistroEmpleadoModelImpl
+service.RegistroEmpleadoServiceImpl ..> model.IRegistroEmpleadoModel
+service.RegistroEmpleadoServiceImpl --|> service.IRegistroEmpleadoService
+service.RegistroSedanesServiceImpl ..> java.lang.Override
+service.RegistroSedanesServiceImpl ..> entity.Sedanes
+service.RegistroSedanesServiceImpl ..> java.util.List
+service.RegistroSedanesServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroSedanesServiceImpl ..> model.RegistroSedanesModelImpl
+service.RegistroSedanesServiceImpl ..> model.IRegistroSedanesModel
+service.RegistroSedanesServiceImpl --|> service.IRegistroSedanesService
+model.IRegistroCamionetaModel ..> entity.Camioneta
+model.IRegistroCamionetaModel ..> java.util.List
+model.IRegistroCamionetaModel ..> javax.swing.table.DefaultTableModel
+model.IRegistroClienteModel ..> entity.Cliente
+model.IRegistroClienteModel ..> java.util.List
+model.IRegistroClienteModel ..> javax.swing.table.DefaultTableModel
+model.IRegistroDeportivoModel ..> entity.Deportivo
+model.IRegistroDeportivoModel ..> java.util.List
+model.IRegistroDeportivoModel ..> javax.swing.table.DefaultTableModel
+model.IRegistroEmpleadoModel ..> entity.Empleado
+model.IRegistroEmpleadoModel ..> java.util.List
+model.IRegistroEmpleadoModel ..> javax.swing.table.DefaultTableModel
+model.IRegistroSedanesModel ..> entity.Sedanes
+model.IRegistroSedanesModel ..> java.util.List
+model.IRegistroSedanesModel ..> javax.swing.table.DefaultTableModel
+service.IRegistroCamionetaService ..> entity.Camioneta
+service.IRegistroCamionetaService ..> java.util.List
+service.IRegistroCamionetaService ..> javax.swing.table.DefaultTableModel
+service.IRegistroClienteService ..> entity.Cliente
+service.IRegistroClienteService ..> java.util.List
+service.IRegistroClienteService ..> javax.swing.table.DefaultTableModel
+service.IRegistroDeportivoService ..> entity.Deportivo
+service.IRegistroDeportivoService ..> java.util.List
+service.IRegistroDeportivoService ..> javax.swing.table.DefaultTableModel
+service.IRegistroEmpleadoService ..> entity.Empleado
+service.IRegistroEmpleadoService ..> java.util.List
+service.IRegistroEmpleadoService ..> javax.swing.table.DefaultTableModel
+service.IRegistroSedanesService ..> entity.Sedanes
+service.IRegistroSedanesService ..> java.util.List
+service.IRegistroSedanesService ..> javax.swing.table.DefaultTableModel
+@enduml

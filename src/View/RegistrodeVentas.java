@@ -50,7 +50,6 @@ public class RegistrodeVentas extends javax.swing.JFrame {
         jButtonRegistrar = new javax.swing.JButton();
         jButtonEditar = new javax.swing.JButton();
         jButtonEliminar = new javax.swing.JButton();
-        jButtonSalir = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTableRegistros = new javax.swing.JTable();
         jLabelBaul = new javax.swing.JLabel();
@@ -131,10 +130,6 @@ public class RegistrodeVentas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButtonEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, -1, -1));
-
-        jButtonSalir.setBackground(new java.awt.Color(255, 204, 0));
-        jButtonSalir.setText("Salir");
-        jPanel1.add(jButtonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 220, -1, -1));
 
         jTableRegistros.setBackground(new java.awt.Color(255, 204, 153));
         jTableRegistros.setModel(new javax.swing.table.DefaultTableModel(
@@ -388,7 +383,6 @@ public class RegistrodeVentas extends javax.swing.JFrame {
     private javax.swing.JButton jButtonEditar;
     private javax.swing.JButton jButtonEliminar;
     private javax.swing.JButton jButtonRegistrar;
-    private javax.swing.JButton jButtonSalir;
     private javax.swing.JComboBox<String> jComboBoxMarca;
     private javax.swing.JComboBox<String> jComboBoxModelo;
     private javax.swing.JComboBox<String> jComboBoxTipo;

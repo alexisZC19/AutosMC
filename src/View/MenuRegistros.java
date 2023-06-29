@@ -44,24 +44,44 @@ public class MenuRegistros extends javax.swing.JFrame {
         jButtonDeportivo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BotonesDeportivos.png"))); // NOI18N
         jButtonDeportivo.setBorderPainted(false);
         jButtonDeportivo.setContentAreaFilled(false);
+        jButtonDeportivo.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonDeportivoMouseClicked(evt);
+            }
+        });
         jPanel1.add(jButtonDeportivo, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, 210, 53));
 
         jButtonCamioneta.setBackground(new java.awt.Color(204, 255, 255));
         jButtonCamioneta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BotonesCamionetas.png"))); // NOI18N
         jButtonCamioneta.setBorderPainted(false);
         jButtonCamioneta.setContentAreaFilled(false);
+        jButtonCamioneta.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonCamionetaMouseClicked(evt);
+            }
+        });
         jPanel1.add(jButtonCamioneta, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 30, 190, 53));
 
         jButtonEmpleado.setBackground(new java.awt.Color(204, 255, 255));
         jButtonEmpleado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BotonesEmpleados.png"))); // NOI18N
         jButtonEmpleado.setBorderPainted(false);
         jButtonEmpleado.setContentAreaFilled(false);
+        jButtonEmpleado.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonEmpleadoMouseClicked(evt);
+            }
+        });
         jPanel1.add(jButtonEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 250, 190, 53));
 
         jButtonCliente.setBackground(new java.awt.Color(204, 255, 255));
         jButtonCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BotonClientes.png"))); // NOI18N
         jButtonCliente.setBorderPainted(false);
         jButtonCliente.setContentAreaFilled(false);
+        jButtonCliente.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonClienteMouseClicked(evt);
+            }
+        });
         jPanel1.add(jButtonCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 250, 190, 53));
 
         jButtonSalir.setBackground(new java.awt.Color(204, 255, 255));
@@ -106,12 +126,33 @@ public class MenuRegistros extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonSalirMouseClicked
 
     private void jButtonSedanesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonSedanesMouseClicked
-        
+    new VistaVehiculoSedan().setVisible(true);
+        this.dispose();        
     }//GEN-LAST:event_jButtonSedanesMouseClicked
 
     private void jButtonSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSalirActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jButtonSalirActionPerformed
+
+    private void jButtonDeportivoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonDeportivoMouseClicked
+      new VistaVehiculoDeportivo().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButtonDeportivoMouseClicked
+
+    private void jButtonCamionetaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonCamionetaMouseClicked
+      new VistaVehiculoCamioneta().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButtonCamionetaMouseClicked
+
+    private void jButtonEmpleadoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonEmpleadoMouseClicked
+       new VistaPersonaCliente().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButtonEmpleadoMouseClicked
+
+    private void jButtonClienteMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonClienteMouseClicked
+        new VistaEmpleado().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButtonClienteMouseClicked
 
     /**
      * @param args the command line arguments

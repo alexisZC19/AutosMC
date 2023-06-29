@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="343px" preserveAspectRatio="none" style="width:4612px;height:343px;" version="1.1" viewBox="0 0 4612 343" width="4612px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f3cot4imtqsmf" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--MD5=[aa8f7b917213fcc1c2766e2d59b49067]
+cluster java.lang-->
+        <polygon fill="#FFFFFF" filter="url(#f3cot4imtqsmf)" points="16,114,91,114,98,136.2969,132,136.2969,132,213,16,213,16,114" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="98" y1="136.2969" y2="136.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="69" x="20" y="128.9951">java.lang</text>
+        <!--MD5=[bc1b6a63fef26b0dbe93a6a9270e3b0e]
+cluster entity-->
+        <polygon fill="#FFFFFF" filter="url(#f3cot4imtqsmf)" points="324,237,375,237,382,259.2969,945,259.2969,945,336,324,336,324,237" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="324" x2="382" y1="259.2969" y2="259.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="328" y="251.9951">entity</text>
+        <!--MD5=[7db3c59d38ae5b37b484eb2df9368145]
+cluster java.util-->
+        <polygon fill="#FFFFFF" filter="url(#f3cot4imtqsmf)" points="1469,237,1535,237,1542,259.2969,1555,259.2969,1555,336,1469,336,1469,237" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1469" x2="1542" y1="259.2969" y2="259.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="60" x="1473" y="251.9951">java.util</text>
+        <!--MD5=[5774b4c5fc5217f115da810753dc9c1c]
+cluster javax.swing.table-->
+        <polygon fill="#FFFFFF" filter="url(#f3cot4imtqsmf)" points="1611,237,1753,237,1760,259.2969,1791,259.2969,1791,336,1611,336,1611,237" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1611" x2="1760" y1="259.2969" y2="259.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="136" x="1615" y="251.9951">javax.swing.table</text>
+        <!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model-->
+        <polygon fill="#FFFFFF" filter="url(#f3cot4imtqsmf)" points="2322,114,2376,114,2383,136.2969,4595,136.2969,4595,213,2322,213,2322,114" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="2322" x2="2383" y1="136.2969" y2="136.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="48" x="2326" y="128.9951">model</text>
+        <!--MD5=[7579d5565d2521d5936cec86ed3dadee]
+cluster service-->
+        <polygon fill="#FFFFFF" filter="url(#f3cot4imtqsmf)" points="490,6,554,6,561,28.2969,1721,28.2969,1721,213,490,213,490,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="490" x2="561" y1="28.2969" y2="28.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="494" y="20.9951">service</text>
+        <!--MD5=[3c78a2fa643d9223b1f8ad930e883961]
+class java.lang.Override-->
+        <rect codeLine="1" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="java.lang.Override" style="stroke:#A80036;stroke-width:1.5;" width="84" x="32" y="149"/>
+        <ellipse cx="47" cy="165" fill="#E3664A" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M49.0781,165.4688 Q49.0781,164.5313 48.6563,164 Q48.2344,163.4688 47.4844,163.4688 Q46.75,163.4688 46.3281,164 Q45.9219,164.5313 45.9219,165.4688 Q45.9219,166.4219 46.3281,166.9531 Q46.75,167.4844 47.4844,167.4844 Q48.2344,167.4844 48.6563,166.9531 Q49.0781,166.4219 49.0781,165.4688 Z M50.625,168.875 L49,168.875 L49,168.2031 Q48.6719,168.6406 48.25,168.8438 Q47.8281,169.0469 47.2188,169.0469 Q45.8594,169.0469 45.0313,168.0781 Q44.2031,167.0938 44.2031,165.4688 Q44.2031,163.875 45.0313,162.9063 Q45.8594,161.9219 47.2188,161.9219 Q47.8125,161.9219 48.2656,162.125 Q48.7188,162.3281 49,162.7188 L49,162.375 Q49,161.25 48.375,160.6406 Q47.75,160.0156 46.6094,160.0156 Q44.8906,160.0156 43.7969,161.5469 Q42.7031,163.0625 42.7031,165.5 Q42.7031,168.0469 43.9531,169.5469 Q45.2188,171.0469 47.3281,171.0469 Q47.9844,171.0469 48.6094,170.8594 Q49.2344,170.6719 49.8125,170.2813 L50.5781,171.7344 Q49.9063,172.1875 49.1094,172.4063 Q48.3125,172.6406 47.4063,172.6406 Q44.5,172.6406 42.7656,170.7031 Q41.0469,168.7813 41.0469,165.5 Q41.0469,162.2813 42.5938,160.3594 Q44.1563,158.4219 46.7188,158.4219 Q48.5156,158.4219 49.5625,159.5156 Q50.625,160.6094 50.625,162.4844 L50.625,168.875 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="61" y="169.1543">Override</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="115" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="115" y1="189" y2="189"/>
+        <!--MD5=[efa2188a4bcb348368a36ef7c4f3e1a3]
+class entity.Camioneta-->
+        <rect codeLine="2" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="entity.Camioneta" style="stroke:#A80036;stroke-width:1.5;" width="99" x="590.5" y="272"/>
+        <ellipse cx="605.5" cy="288" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M608.4688,293.6406 Q607.8906,293.9375 607.25,294.0781 Q606.6094,294.2344 605.9063,294.2344 Q603.4063,294.2344 602.0781,292.5938 Q600.7656,290.9375 600.7656,287.8125 Q600.7656,284.6875 602.0781,283.0313 Q603.4063,281.375 605.9063,281.375 Q606.6094,281.375 607.25,281.5313 Q607.9063,281.6875 608.4688,281.9844 L608.4688,284.7031 Q607.8438,284.125 607.25,283.8594 Q606.6563,283.5781 606.0313,283.5781 Q604.6875,283.5781 604,284.6563 Q603.3125,285.7188 603.3125,287.8125 Q603.3125,289.9063 604,290.9844 Q604.6875,292.0469 606.0313,292.0469 Q606.6563,292.0469 607.25,291.7813 Q607.8438,291.5 608.4688,290.9219 L608.4688,293.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="619.5" y="292.1543">Camioneta</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="591.5" x2="688.5" y1="304" y2="304"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="591.5" x2="688.5" y1="312" y2="312"/>
+        <!--MD5=[4c655b6e149c67ef915ed33040c43203]
+class entity.Cliente-->
+        <rect codeLine="3" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="entity.Cliente" style="stroke:#A80036;stroke-width:1.5;" width="75" x="724.5" y="272"/>
+        <ellipse cx="739.5" cy="288" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M742.4688,293.6406 Q741.8906,293.9375 741.25,294.0781 Q740.6094,294.2344 739.9063,294.2344 Q737.4063,294.2344 736.0781,292.5938 Q734.7656,290.9375 734.7656,287.8125 Q734.7656,284.6875 736.0781,283.0313 Q737.4063,281.375 739.9063,281.375 Q740.6094,281.375 741.25,281.5313 Q741.9063,281.6875 742.4688,281.9844 L742.4688,284.7031 Q741.8438,284.125 741.25,283.8594 Q740.6563,283.5781 740.0313,283.5781 Q738.6875,283.5781 738,284.6563 Q737.3125,285.7188 737.3125,287.8125 Q737.3125,289.9063 738,290.9844 Q738.6875,292.0469 740.0313,292.0469 Q740.6563,292.0469 741.25,291.7813 Q741.8438,291.5 742.4688,290.9219 L742.4688,293.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="43" x="753.5" y="292.1543">Cliente</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="725.5" x2="798.5" y1="304" y2="304"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="725.5" x2="798.5" y1="312" y2="312"/>
+        <!--MD5=[13f2ebcf5fa9fd9bfd9ee77079118c8c]
+class entity.Deportivo-->
+        <rect codeLine="4" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="entity.Deportivo" style="stroke:#A80036;stroke-width:1.5;" width="92" x="463" y="272"/>
+        <ellipse cx="478" cy="288" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M480.9688,293.6406 Q480.3906,293.9375 479.75,294.0781 Q479.1094,294.2344 478.4063,294.2344 Q475.9063,294.2344 474.5781,292.5938 Q473.2656,290.9375 473.2656,287.8125 Q473.2656,284.6875 474.5781,283.0313 Q475.9063,281.375 478.4063,281.375 Q479.1094,281.375 479.75,281.5313 Q480.4063,281.6875 480.9688,281.9844 L480.9688,284.7031 Q480.3438,284.125 479.75,283.8594 Q479.1563,283.5781 478.5313,283.5781 Q477.1875,283.5781 476.5,284.6563 Q475.8125,285.7188 475.8125,287.8125 Q475.8125,289.9063 476.5,290.9844 Q477.1875,292.0469 478.5313,292.0469 Q479.1563,292.0469 479.75,291.7813 Q480.3438,291.5 480.9688,290.9219 L480.9688,293.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="492" y="292.1543">Deportivo</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="464" x2="554" y1="304" y2="304"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="464" x2="554" y1="312" y2="312"/>
+        <!--MD5=[0f812d431b139ffe0187554676c6eb6c]
+class entity.Empleado-->
+        <rect codeLine="5" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="entity.Empleado" style="stroke:#A80036;stroke-width:1.5;" width="94" x="835" y="272"/>
+        <ellipse cx="850" cy="288" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M852.9688,293.6406 Q852.3906,293.9375 851.75,294.0781 Q851.1094,294.2344 850.4063,294.2344 Q847.9063,294.2344 846.5781,292.5938 Q845.2656,290.9375 845.2656,287.8125 Q845.2656,284.6875 846.5781,283.0313 Q847.9063,281.375 850.4063,281.375 Q851.1094,281.375 851.75,281.5313 Q852.4063,281.6875 852.9688,281.9844 L852.9688,284.7031 Q852.3438,284.125 851.75,283.8594 Q851.1563,283.5781 850.5313,283.5781 Q849.1875,283.5781 848.5,284.6563 Q847.8125,285.7188 847.8125,287.8125 Q847.8125,289.9063 848.5,290.9844 Q849.1875,292.0469 850.5313,292.0469 Q851.1563,292.0469 851.75,291.7813 Q852.3438,291.5 852.9688,290.9219 L852.9688,293.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="864" y="292.1543">Empleado</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="836" x2="928" y1="304" y2="304"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="836" x2="928" y1="312" y2="312"/>
+        <!--MD5=[7e997608adde81739776d3cfa367f520]
+class entity.Sedanes-->
+        <rect codeLine="6" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="entity.Sedanes" style="stroke:#A80036;stroke-width:1.5;" width="87" x="340.5" y="272"/>
+        <ellipse cx="355.5" cy="288" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M358.4688,293.6406 Q357.8906,293.9375 357.25,294.0781 Q356.6094,294.2344 355.9063,294.2344 Q353.4063,294.2344 352.0781,292.5938 Q350.7656,290.9375 350.7656,287.8125 Q350.7656,284.6875 352.0781,283.0313 Q353.4063,281.375 355.9063,281.375 Q356.6094,281.375 357.25,281.5313 Q357.9063,281.6875 358.4688,281.9844 L358.4688,284.7031 Q357.8438,284.125 357.25,283.8594 Q356.6563,283.5781 356.0313,283.5781 Q354.6875,283.5781 354,284.6563 Q353.3125,285.7188 353.3125,287.8125 Q353.3125,289.9063 354,290.9844 Q354.6875,292.0469 356.0313,292.0469 Q356.6563,292.0469 357.25,291.7813 Q357.8438,291.5 358.4688,290.9219 L358.4688,293.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="369.5" y="292.1543">Sedanes</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="341.5" x2="426.5" y1="304" y2="304"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="341.5" x2="426.5" y1="312" y2="312"/>
+        <!--MD5=[6b7a9fc05e2cf62df8c1411c2048df3f]
+class java.util.List-->
+        <rect codeLine="7" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="java.util.List" style="stroke:#A80036;stroke-width:1.5;" width="53" x="1485.5" y="272"/>
+        <ellipse cx="1500.5" cy="288" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1503.4688,293.6406 Q1502.8906,293.9375 1502.25,294.0781 Q1501.6094,294.2344 1500.9063,294.2344 Q1498.4063,294.2344 1497.0781,292.5938 Q1495.7656,290.9375 1495.7656,287.8125 Q1495.7656,284.6875 1497.0781,283.0313 Q1498.4063,281.375 1500.9063,281.375 Q1501.6094,281.375 1502.25,281.5313 Q1502.9063,281.6875 1503.4688,281.9844 L1503.4688,284.7031 Q1502.8438,284.125 1502.25,283.8594 Q1501.6563,283.5781 1501.0313,283.5781 Q1499.6875,283.5781 1499,284.6563 Q1498.3125,285.7188 1498.3125,287.8125 Q1498.3125,289.9063 1499,290.9844 Q1499.6875,292.0469 1501.0313,292.0469 Q1501.6563,292.0469 1502.25,291.7813 Q1502.8438,291.5 1503.4688,290.9219 L1503.4688,293.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="21" x="1514.5" y="292.1543">List</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1486.5" x2="1537.5" y1="304" y2="304"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1486.5" x2="1537.5" y1="312" y2="312"/>
+        <!--MD5=[1cd578f257a54f0b33b178d914aab33d]
+class javax.swing.table.DefaultTableModel-->
+        <rect codeLine="8" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.5;" width="148" x="1627" y="272"/>
+        <ellipse cx="1642" cy="288" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1644.9688,293.6406 Q1644.3906,293.9375 1643.75,294.0781 Q1643.1094,294.2344 1642.4063,294.2344 Q1639.9063,294.2344 1638.5781,292.5938 Q1637.2656,290.9375 1637.2656,287.8125 Q1637.2656,284.6875 1638.5781,283.0313 Q1639.9063,281.375 1642.4063,281.375 Q1643.1094,281.375 1643.75,281.5313 Q1644.4063,281.6875 1644.9688,281.9844 L1644.9688,284.7031 Q1644.3438,284.125 1643.75,283.8594 Q1643.1563,283.5781 1642.5313,283.5781 Q1641.1875,283.5781 1640.5,284.6563 Q1639.8125,285.7188 1639.8125,287.8125 Q1639.8125,289.9063 1640.5,290.9844 Q1641.1875,292.0469 1642.5313,292.0469 Q1643.1563,292.0469 1643.75,291.7813 Q1644.3438,291.5 1644.9688,290.9219 L1644.9688,293.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="1656" y="292.1543">DefaultTableModel</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1628" x2="1774" y1="304" y2="304"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1628" x2="1774" y1="312" y2="312"/>
+        <!--MD5=[062a1ff627bef6252e5b15e9e582f81b]
+class model.IRegistroCamionetaModel-->
+        <rect codeLine="9" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.IRegistroCamionetaModel" style="stroke:#A80036;stroke-width:1.5;" width="191" x="3249.5" y="149"/>
+        <ellipse cx="3264.5" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3267.4688,170.6406 Q3266.8906,170.9375 3266.25,171.0781 Q3265.6094,171.2344 3264.9063,171.2344 Q3262.4063,171.2344 3261.0781,169.5938 Q3259.7656,167.9375 3259.7656,164.8125 Q3259.7656,161.6875 3261.0781,160.0313 Q3262.4063,158.375 3264.9063,158.375 Q3265.6094,158.375 3266.25,158.5313 Q3266.9063,158.6875 3267.4688,158.9844 L3267.4688,161.7031 Q3266.8438,161.125 3266.25,160.8594 Q3265.6563,160.5781 3265.0313,160.5781 Q3263.6875,160.5781 3263,161.6563 Q3262.3125,162.7188 3262.3125,164.8125 Q3262.3125,166.9063 3263,167.9844 Q3263.6875,169.0469 3265.0313,169.0469 Q3265.6563,169.0469 3266.25,168.7813 Q3266.8438,168.5 3267.4688,167.9219 L3267.4688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="159" x="3278.5" y="169.1543">IRegistroCamionetaModel</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3250.5" x2="3439.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3250.5" x2="3439.5" y1="189" y2="189"/>
+        <!--MD5=[754e023be13e5b40212c9f65e16b8a42]
+class model.IRegistroClienteModel-->
+        <rect codeLine="10" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.IRegistroClienteModel" style="stroke:#A80036;stroke-width:1.5;" width="167" x="3723.5" y="149"/>
+        <ellipse cx="3738.5" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3741.4688,170.6406 Q3740.8906,170.9375 3740.25,171.0781 Q3739.6094,171.2344 3738.9063,171.2344 Q3736.4063,171.2344 3735.0781,169.5938 Q3733.7656,167.9375 3733.7656,164.8125 Q3733.7656,161.6875 3735.0781,160.0313 Q3736.4063,158.375 3738.9063,158.375 Q3739.6094,158.375 3740.25,158.5313 Q3740.9063,158.6875 3741.4688,158.9844 L3741.4688,161.7031 Q3740.8438,161.125 3740.25,160.8594 Q3739.6563,160.5781 3739.0313,160.5781 Q3737.6875,160.5781 3737,161.6563 Q3736.3125,162.7188 3736.3125,164.8125 Q3736.3125,166.9063 3737,167.9844 Q3737.6875,169.0469 3739.0313,169.0469 Q3739.6563,169.0469 3740.25,168.7813 Q3740.8438,168.5 3741.4688,167.9219 L3741.4688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="3752.5" y="169.1543">IRegistroClienteModel</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3724.5" x2="3889.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3724.5" x2="3889.5" y1="189" y2="189"/>
+        <!--MD5=[6c99946fd2b1b24438b862e901cb3765]
+class model.IRegistroDeportivoModel-->
+        <rect codeLine="11" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.IRegistroDeportivoModel" style="stroke:#A80036;stroke-width:1.5;" width="184" x="2789" y="149"/>
+        <ellipse cx="2804" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2806.9688,170.6406 Q2806.3906,170.9375 2805.75,171.0781 Q2805.1094,171.2344 2804.4063,171.2344 Q2801.9063,171.2344 2800.5781,169.5938 Q2799.2656,167.9375 2799.2656,164.8125 Q2799.2656,161.6875 2800.5781,160.0313 Q2801.9063,158.375 2804.4063,158.375 Q2805.1094,158.375 2805.75,158.5313 Q2806.4063,158.6875 2806.9688,158.9844 L2806.9688,161.7031 Q2806.3438,161.125 2805.75,160.8594 Q2805.1563,160.5781 2804.5313,160.5781 Q2803.1875,160.5781 2802.5,161.6563 Q2801.8125,162.7188 2801.8125,164.8125 Q2801.8125,166.9063 2802.5,167.9844 Q2803.1875,169.0469 2804.5313,169.0469 Q2805.1563,169.0469 2805.75,168.7813 Q2806.3438,168.5 2806.9688,167.9219 L2806.9688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="152" x="2818" y="169.1543">IRegistroDeportivoModel</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2790" x2="2972" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2790" x2="2972" y1="189" y2="189"/>
+        <!--MD5=[09d483b43caf9480a20b1019b618aa58]
+class model.IRegistroEmpleadoModel-->
+        <rect codeLine="12" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.IRegistroEmpleadoModel" style="stroke:#A80036;stroke-width:1.5;" width="186" x="4150" y="149"/>
+        <ellipse cx="4165" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4167.9688,170.6406 Q4167.3906,170.9375 4166.75,171.0781 Q4166.1094,171.2344 4165.4063,171.2344 Q4162.9063,171.2344 4161.5781,169.5938 Q4160.2656,167.9375 4160.2656,164.8125 Q4160.2656,161.6875 4161.5781,160.0313 Q4162.9063,158.375 4165.4063,158.375 Q4166.1094,158.375 4166.75,158.5313 Q4167.4063,158.6875 4167.9688,158.9844 L4167.9688,161.7031 Q4167.3438,161.125 4166.75,160.8594 Q4166.1563,160.5781 4165.5313,160.5781 Q4164.1875,160.5781 4163.5,161.6563 Q4162.8125,162.7188 4162.8125,164.8125 Q4162.8125,166.9063 4163.5,167.9844 Q4164.1875,169.0469 4165.5313,169.0469 Q4166.1563,169.0469 4166.75,168.7813 Q4167.3438,168.5 4167.9688,167.9219 L4167.9688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="154" x="4179" y="169.1543">IRegistroEmpleadoModel</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4151" x2="4335" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4151" x2="4335" y1="189" y2="189"/>
+        <!--MD5=[7323bb071babb68280e309fab72bd21f]
+class model.IRegistroSedanesModel-->
+        <rect codeLine="13" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.IRegistroSedanesModel" style="stroke:#A80036;stroke-width:1.5;" width="179" x="2338.5" y="149"/>
+        <ellipse cx="2353.5" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2356.4688,170.6406 Q2355.8906,170.9375 2355.25,171.0781 Q2354.6094,171.2344 2353.9063,171.2344 Q2351.4063,171.2344 2350.0781,169.5938 Q2348.7656,167.9375 2348.7656,164.8125 Q2348.7656,161.6875 2350.0781,160.0313 Q2351.4063,158.375 2353.9063,158.375 Q2354.6094,158.375 2355.25,158.5313 Q2355.9063,158.6875 2356.4688,158.9844 L2356.4688,161.7031 Q2355.8438,161.125 2355.25,160.8594 Q2354.6563,160.5781 2354.0313,160.5781 Q2352.6875,160.5781 2352,161.6563 Q2351.3125,162.7188 2351.3125,164.8125 Q2351.3125,166.9063 2352,167.9844 Q2352.6875,169.0469 2354.0313,169.0469 Q2354.6563,169.0469 2355.25,168.7813 Q2355.8438,168.5 2356.4688,167.9219 L2356.4688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="147" x="2367.5" y="169.1543">IRegistroSedanesModel</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2339.5" x2="2516.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2339.5" x2="2516.5" y1="189" y2="189"/>
+        <!--MD5=[7e88de7c19d1310329517e43ce00c1a2]
+class model.RegistroCamionetaModelImpl-->
+        <rect codeLine="14" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.RegistroCamionetaModelImpl" style="stroke:#A80036;stroke-width:1.5;" width="213" x="3475.5" y="149"/>
+        <ellipse cx="3490.5" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3493.4688,170.6406 Q3492.8906,170.9375 3492.25,171.0781 Q3491.6094,171.2344 3490.9063,171.2344 Q3488.4063,171.2344 3487.0781,169.5938 Q3485.7656,167.9375 3485.7656,164.8125 Q3485.7656,161.6875 3487.0781,160.0313 Q3488.4063,158.375 3490.9063,158.375 Q3491.6094,158.375 3492.25,158.5313 Q3492.9063,158.6875 3493.4688,158.9844 L3493.4688,161.7031 Q3492.8438,161.125 3492.25,160.8594 Q3491.6563,160.5781 3491.0313,160.5781 Q3489.6875,160.5781 3489,161.6563 Q3488.3125,162.7188 3488.3125,164.8125 Q3488.3125,166.9063 3489,167.9844 Q3489.6875,169.0469 3491.0313,169.0469 Q3491.6563,169.0469 3492.25,168.7813 Q3492.8438,168.5 3493.4688,167.9219 L3493.4688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="181" x="3504.5" y="169.1543">RegistroCamionetaModelImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3476.5" x2="3687.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3476.5" x2="3687.5" y1="189" y2="189"/>
+        <!--MD5=[abb6954596cb3d8a514918196b69be07]
+class model.RegistroClienteModelImpl-->
+        <rect codeLine="15" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.RegistroClienteModelImpl" style="stroke:#A80036;stroke-width:1.5;" width="189" x="3925.5" y="149"/>
+        <ellipse cx="3940.5" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3943.4688,170.6406 Q3942.8906,170.9375 3942.25,171.0781 Q3941.6094,171.2344 3940.9063,171.2344 Q3938.4063,171.2344 3937.0781,169.5938 Q3935.7656,167.9375 3935.7656,164.8125 Q3935.7656,161.6875 3937.0781,160.0313 Q3938.4063,158.375 3940.9063,158.375 Q3941.6094,158.375 3942.25,158.5313 Q3942.9063,158.6875 3943.4688,158.9844 L3943.4688,161.7031 Q3942.8438,161.125 3942.25,160.8594 Q3941.6563,160.5781 3941.0313,160.5781 Q3939.6875,160.5781 3939,161.6563 Q3938.3125,162.7188 3938.3125,164.8125 Q3938.3125,166.9063 3939,167.9844 Q3939.6875,169.0469 3941.0313,169.0469 Q3941.6563,169.0469 3942.25,168.7813 Q3942.8438,168.5 3943.4688,167.9219 L3943.4688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="157" x="3954.5" y="169.1543">RegistroClienteModelImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3926.5" x2="4113.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3926.5" x2="4113.5" y1="189" y2="189"/>
+        <!--MD5=[a9223fc65a112e8f612196b914c347fc]
+class model.RegistroDeportivoModelImpl-->
+        <rect codeLine="16" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.RegistroDeportivoModelImpl" style="stroke:#A80036;stroke-width:1.5;" width="206" x="3008" y="149"/>
+        <ellipse cx="3023" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M3025.9688,170.6406 Q3025.3906,170.9375 3024.75,171.0781 Q3024.1094,171.2344 3023.4063,171.2344 Q3020.9063,171.2344 3019.5781,169.5938 Q3018.2656,167.9375 3018.2656,164.8125 Q3018.2656,161.6875 3019.5781,160.0313 Q3020.9063,158.375 3023.4063,158.375 Q3024.1094,158.375 3024.75,158.5313 Q3025.4063,158.6875 3025.9688,158.9844 L3025.9688,161.7031 Q3025.3438,161.125 3024.75,160.8594 Q3024.1563,160.5781 3023.5313,160.5781 Q3022.1875,160.5781 3021.5,161.6563 Q3020.8125,162.7188 3020.8125,164.8125 Q3020.8125,166.9063 3021.5,167.9844 Q3022.1875,169.0469 3023.5313,169.0469 Q3024.1563,169.0469 3024.75,168.7813 Q3025.3438,168.5 3025.9688,167.9219 L3025.9688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="174" x="3037" y="169.1543">RegistroDeportivoModelImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3009" x2="3213" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="3009" x2="3213" y1="189" y2="189"/>
+        <!--MD5=[ef2da791d5959ea8afa728dd949ec87f]
+class model.RegistroEmpleadoModelImpl-->
+        <rect codeLine="17" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.RegistroEmpleadoModelImpl" style="stroke:#A80036;stroke-width:1.5;" width="208" x="4371" y="149"/>
+        <ellipse cx="4386" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M4388.9688,170.6406 Q4388.3906,170.9375 4387.75,171.0781 Q4387.1094,171.2344 4386.4063,171.2344 Q4383.9063,171.2344 4382.5781,169.5938 Q4381.2656,167.9375 4381.2656,164.8125 Q4381.2656,161.6875 4382.5781,160.0313 Q4383.9063,158.375 4386.4063,158.375 Q4387.1094,158.375 4387.75,158.5313 Q4388.4063,158.6875 4388.9688,158.9844 L4388.9688,161.7031 Q4388.3438,161.125 4387.75,160.8594 Q4387.1563,160.5781 4386.5313,160.5781 Q4385.1875,160.5781 4384.5,161.6563 Q4383.8125,162.7188 4383.8125,164.8125 Q4383.8125,166.9063 4384.5,167.9844 Q4385.1875,169.0469 4386.5313,169.0469 Q4387.1563,169.0469 4387.75,168.7813 Q4388.3438,168.5 4388.9688,167.9219 L4388.9688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="176" x="4400" y="169.1543">RegistroEmpleadoModelImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4372" x2="4578" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="4372" x2="4578" y1="189" y2="189"/>
+        <!--MD5=[8288a5cf3408834a70c877e10d7b78d1]
+class model.RegistroSedanesModelImpl-->
+        <rect codeLine="18" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="model.RegistroSedanesModelImpl" style="stroke:#A80036;stroke-width:1.5;" width="201" x="2552.5" y="149"/>
+        <ellipse cx="2567.5" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M2570.4688,170.6406 Q2569.8906,170.9375 2569.25,171.0781 Q2568.6094,171.2344 2567.9063,171.2344 Q2565.4063,171.2344 2564.0781,169.5938 Q2562.7656,167.9375 2562.7656,164.8125 Q2562.7656,161.6875 2564.0781,160.0313 Q2565.4063,158.375 2567.9063,158.375 Q2568.6094,158.375 2569.25,158.5313 Q2569.9063,158.6875 2570.4688,158.9844 L2570.4688,161.7031 Q2569.8438,161.125 2569.25,160.8594 Q2568.6563,160.5781 2568.0313,160.5781 Q2566.6875,160.5781 2566,161.6563 Q2565.3125,162.7188 2565.3125,164.8125 Q2565.3125,166.9063 2566,167.9844 Q2566.6875,169.0469 2568.0313,169.0469 Q2568.6563,169.0469 2569.25,168.7813 Q2569.8438,168.5 2570.4688,167.9219 L2570.4688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="169" x="2581.5" y="169.1543">RegistroSedanesModelImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2553.5" x2="2752.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="2553.5" x2="2752.5" y1="189" y2="189"/>
+        <!--MD5=[fae97b33479864cab023e2bca0156c64]
+class service.RegistroCamionetaServiceImpl-->
+        <rect codeLine="19" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.RegistroCamionetaServiceImpl" style="stroke:#A80036;stroke-width:1.5;" width="221" x="1000.5" y="41"/>
+        <ellipse cx="1015.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1018.4688,62.6406 Q1017.8906,62.9375 1017.25,63.0781 Q1016.6094,63.2344 1015.9063,63.2344 Q1013.4063,63.2344 1012.0781,61.5938 Q1010.7656,59.9375 1010.7656,56.8125 Q1010.7656,53.6875 1012.0781,52.0313 Q1013.4063,50.375 1015.9063,50.375 Q1016.6094,50.375 1017.25,50.5313 Q1017.9063,50.6875 1018.4688,50.9844 L1018.4688,53.7031 Q1017.8438,53.125 1017.25,52.8594 Q1016.6563,52.5781 1016.0313,52.5781 Q1014.6875,52.5781 1014,53.6563 Q1013.3125,54.7188 1013.3125,56.8125 Q1013.3125,58.9063 1014,59.9844 Q1014.6875,61.0469 1016.0313,61.0469 Q1016.6563,61.0469 1017.25,60.7813 Q1017.8438,60.5 1018.4688,59.9219 L1018.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="189" x="1029.5" y="61.1543">RegistroCamionetaServiceImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1001.5" x2="1220.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1001.5" x2="1220.5" y1="81" y2="81"/>
+        <!--MD5=[4e5536ecae9d2e547ae88b06104793ec]
+class service.RegistroClienteServiceImpl-->
+        <rect codeLine="20" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.RegistroClienteServiceImpl" style="stroke:#A80036;stroke-width:1.5;" width="197" x="1256.5" y="41"/>
+        <ellipse cx="1271.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1274.4688,62.6406 Q1273.8906,62.9375 1273.25,63.0781 Q1272.6094,63.2344 1271.9063,63.2344 Q1269.4063,63.2344 1268.0781,61.5938 Q1266.7656,59.9375 1266.7656,56.8125 Q1266.7656,53.6875 1268.0781,52.0313 Q1269.4063,50.375 1271.9063,50.375 Q1272.6094,50.375 1273.25,50.5313 Q1273.9063,50.6875 1274.4688,50.9844 L1274.4688,53.7031 Q1273.8438,53.125 1273.25,52.8594 Q1272.6563,52.5781 1272.0313,52.5781 Q1270.6875,52.5781 1270,53.6563 Q1269.3125,54.7188 1269.3125,56.8125 Q1269.3125,58.9063 1270,59.9844 Q1270.6875,61.0469 1272.0313,61.0469 Q1272.6563,61.0469 1273.25,60.7813 Q1273.8438,60.5 1274.4688,59.9219 L1274.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="165" x="1285.5" y="61.1543">RegistroClienteServiceImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1257.5" x2="1452.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1257.5" x2="1452.5" y1="81" y2="81"/>
+        <!--MD5=[64890ef6fde9d29999008cf82a5c1a57]
+class service.RegistroDeportivoServiceImpl-->
+        <rect codeLine="21" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.RegistroDeportivoServiceImpl" style="stroke:#A80036;stroke-width:1.5;" width="214" x="751" y="41"/>
+        <ellipse cx="766" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M768.9688,62.6406 Q768.3906,62.9375 767.75,63.0781 Q767.1094,63.2344 766.4063,63.2344 Q763.9063,63.2344 762.5781,61.5938 Q761.2656,59.9375 761.2656,56.8125 Q761.2656,53.6875 762.5781,52.0313 Q763.9063,50.375 766.4063,50.375 Q767.1094,50.375 767.75,50.5313 Q768.4063,50.6875 768.9688,50.9844 L768.9688,53.7031 Q768.3438,53.125 767.75,52.8594 Q767.1563,52.5781 766.5313,52.5781 Q765.1875,52.5781 764.5,53.6563 Q763.8125,54.7188 763.8125,56.8125 Q763.8125,58.9063 764.5,59.9844 Q765.1875,61.0469 766.5313,61.0469 Q767.1563,61.0469 767.75,60.7813 Q768.3438,60.5 768.9688,59.9219 L768.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="182" x="780" y="61.1543">RegistroDeportivoServiceImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="752" x2="964" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="752" x2="964" y1="81" y2="81"/>
+        <!--MD5=[429839947520f28e97ee8b67b6ae5fe3]
+class service.RegistroEmpleadoServiceImpl-->
+        <rect codeLine="22" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.RegistroEmpleadoServiceImpl" style="stroke:#A80036;stroke-width:1.5;" width="216" x="1489" y="41"/>
+        <ellipse cx="1504" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1506.9688,62.6406 Q1506.3906,62.9375 1505.75,63.0781 Q1505.1094,63.2344 1504.4063,63.2344 Q1501.9063,63.2344 1500.5781,61.5938 Q1499.2656,59.9375 1499.2656,56.8125 Q1499.2656,53.6875 1500.5781,52.0313 Q1501.9063,50.375 1504.4063,50.375 Q1505.1094,50.375 1505.75,50.5313 Q1506.4063,50.6875 1506.9688,50.9844 L1506.9688,53.7031 Q1506.3438,53.125 1505.75,52.8594 Q1505.1563,52.5781 1504.5313,52.5781 Q1503.1875,52.5781 1502.5,53.6563 Q1501.8125,54.7188 1501.8125,56.8125 Q1501.8125,58.9063 1502.5,59.9844 Q1503.1875,61.0469 1504.5313,61.0469 Q1505.1563,61.0469 1505.75,60.7813 Q1506.3438,60.5 1506.9688,59.9219 L1506.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="184" x="1518" y="61.1543">RegistroEmpleadoServiceImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1490" x2="1704" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1490" x2="1704" y1="81" y2="81"/>
+        <!--MD5=[1be2831bba6c7c36f4c394c2c232571e]
+class service.RegistroSedanesServiceImpl-->
+        <rect codeLine="23" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.RegistroSedanesServiceImpl" style="stroke:#A80036;stroke-width:1.5;" width="209" x="506.5" y="41"/>
+        <ellipse cx="521.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M524.4688,62.6406 Q523.8906,62.9375 523.25,63.0781 Q522.6094,63.2344 521.9063,63.2344 Q519.4063,63.2344 518.0781,61.5938 Q516.7656,59.9375 516.7656,56.8125 Q516.7656,53.6875 518.0781,52.0313 Q519.4063,50.375 521.9063,50.375 Q522.6094,50.375 523.25,50.5313 Q523.9063,50.6875 524.4688,50.9844 L524.4688,53.7031 Q523.8438,53.125 523.25,52.8594 Q522.6563,52.5781 522.0313,52.5781 Q520.6875,52.5781 520,53.6563 Q519.3125,54.7188 519.3125,56.8125 Q519.3125,58.9063 520,59.9844 Q520.6875,61.0469 522.0313,61.0469 Q522.6563,61.0469 523.25,60.7813 Q523.8438,60.5 524.4688,59.9219 L524.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="177" x="535.5" y="61.1543">RegistroSedanesServiceImpl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="507.5" x2="714.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="507.5" x2="714.5" y1="81" y2="81"/>
+        <!--MD5=[2ba034a046422a549b6c6467bb246b09]
+class service.IRegistroCamionetaService-->
+        <rect codeLine="24" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.IRegistroCamionetaService" style="stroke:#A80036;stroke-width:1.5;" width="199" x="954.5" y="149"/>
+        <ellipse cx="969.5" cy="165" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M965.4219,160.7656 L965.4219,158.6094 L972.8125,158.6094 L972.8125,160.7656 L970.3438,160.7656 L970.3438,168.8438 L972.8125,168.8438 L972.8125,171 L965.4219,171 L965.4219,168.8438 L967.8906,168.8438 L967.8906,160.7656 L965.4219,160.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="167" x="983.5" y="169.1543">IRegistroCamionetaService</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="955.5" x2="1152.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="955.5" x2="1152.5" y1="189" y2="189"/>
+        <!--MD5=[056123b8d7848554d246692acd5f6edc]
+class service.IRegistroClienteService-->
+        <rect codeLine="25" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.IRegistroClienteService" style="stroke:#A80036;stroke-width:1.5;" width="175" x="1188.5" y="149"/>
+        <ellipse cx="1203.5" cy="165" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1199.4219,160.7656 L1199.4219,158.6094 L1206.8125,158.6094 L1206.8125,160.7656 L1204.3438,160.7656 L1204.3438,168.8438 L1206.8125,168.8438 L1206.8125,171 L1199.4219,171 L1199.4219,168.8438 L1201.8906,168.8438 L1201.8906,160.7656 L1199.4219,160.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="1217.5" y="169.1543">IRegistroClienteService</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1189.5" x2="1362.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1189.5" x2="1362.5" y1="189" y2="189"/>
+        <!--MD5=[3072015c1592aa24f1bfa4b3a5412bbb]
+class service.IRegistroDeportivoService-->
+        <rect codeLine="26" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.IRegistroDeportivoService" style="stroke:#A80036;stroke-width:1.5;" width="192" x="727" y="149"/>
+        <ellipse cx="742" cy="165" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M737.9219,160.7656 L737.9219,158.6094 L745.3125,158.6094 L745.3125,160.7656 L742.8438,160.7656 L742.8438,168.8438 L745.3125,168.8438 L745.3125,171 L737.9219,171 L737.9219,168.8438 L740.3906,168.8438 L740.3906,160.7656 L737.9219,160.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="160" x="756" y="169.1543">IRegistroDeportivoService</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="728" x2="918" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="728" x2="918" y1="189" y2="189"/>
+        <!--MD5=[c82b0680d3327bda7f532f153dc94e25]
+class service.IRegistroEmpleadoService-->
+        <rect codeLine="27" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.IRegistroEmpleadoService" style="stroke:#A80036;stroke-width:1.5;" width="194" x="1399" y="149"/>
+        <ellipse cx="1414" cy="165" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1409.9219,160.7656 L1409.9219,158.6094 L1417.3125,158.6094 L1417.3125,160.7656 L1414.8438,160.7656 L1414.8438,168.8438 L1417.3125,168.8438 L1417.3125,171 L1409.9219,171 L1409.9219,168.8438 L1412.3906,168.8438 L1412.3906,160.7656 L1409.9219,160.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="162" x="1428" y="169.1543">IRegistroEmpleadoService</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1400" x2="1592" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1400" x2="1592" y1="189" y2="189"/>
+        <!--MD5=[3d909a3c1314726dcdee58faed2df3ba]
+class service.IRegistroSedanesService-->
+        <rect codeLine="28" fill="#FEFECE" filter="url(#f3cot4imtqsmf)" height="48" id="service.IRegistroSedanesService" style="stroke:#A80036;stroke-width:1.5;" width="186" x="506" y="149"/>
+        <ellipse cx="521" cy="165" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M516.9219,160.7656 L516.9219,158.6094 L524.3125,158.6094 L524.3125,160.7656 L521.8438,160.7656 L521.8438,168.8438 L524.3125,168.8438 L524.3125,171 L516.9219,171 L516.9219,168.8438 L519.3906,168.8438 L519.3906,160.7656 L516.9219,160.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="154" x="535" y="169.1543">IRegistroSedanesService</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="507" x2="691" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="507" x2="691" y1="189" y2="189"/>
+        <!--MD5=[b95f6025fb081661959e17e72e90404c]
+link service.RegistroCamionetaServiceImpl to java.lang.Override-->
+        <path codeLine="29" d="M1000.32,86.85 C994.14,87.67 988,88.4 982,89 C827.85,104.53 437.86,80.74 285,106 C227.21,115.55 163.33,137.17 121.16,153.08 " fill="none" id="service.RegistroCamionetaServiceImpl-to-java.lang.Override" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="116.39,154.89,126.2235,155.439,121.0652,153.1172,123.387,147.9588,116.39,154.89" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[4dd311f9f5cf3e5d4e3d5f5b87a0bbc7]
+link service.RegistroCamionetaServiceImpl to entity.Camioneta-->
+        <path codeLine="30" d="M1000.32,86.83 C994.14,87.66 988,88.39 982,89 C947.39,92.54 380.26,81.07 356,106 C320.35,142.63 320.53,184.2 356,221 C372.66,238.29 549.91,219.56 572,229 C591.22,237.21 608.11,253.53 620.25,267.88 " fill="none" id="service.RegistroCamionetaServiceImpl-to-entity.Camioneta" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="623.55,271.87,620.8855,262.3884,620.3589,268.0207,614.7267,267.4941,623.55,271.87" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e883843384e70ded7398f4a0165fb1c3]
+link service.RegistroCamionetaServiceImpl to java.util.List-->
+        <path codeLine="31" d="M1221.52,86.91 C1227.42,87.7 1233.27,88.4 1239,89 C1270.79,92.31 1791.74,83.07 1814,106 C1849.6,142.67 1849.42,184.15 1814,221 C1798.36,237.27 1632.47,222.03 1611,229 C1585.61,237.24 1560.63,253.98 1542.11,268.53 " fill="none" id="service.RegistroCamionetaServiceImpl-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1538.02,271.8,1547.5533,269.3267,1541.9327,268.687,1542.5724,263.0664,1538.02,271.8" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[c94abda711cab50c46b640c041a02f5a]
+link service.RegistroCamionetaServiceImpl to javax.swing.table.DefaultTableModel-->
+        <path codeLine="32" d="M1221.51,86.92 C1227.42,87.71 1233.27,88.41 1239,89 C1272.94,92.5 1829.21,81.54 1853,106 C1888.64,142.64 1880.1,177.67 1853,221 C1836.6,247.23 1807.93,264.4 1779.89,275.53 " fill="none" id="service.RegistroCamionetaServiceImpl-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1775.03,277.41,1784.8655,277.9227,1779.6986,275.6199,1782.0014,270.453,1775.03,277.41" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6578c48196d7e0ddd3f4d4de51bf9467]
+link service.RegistroCamionetaServiceImpl to model.IRegistroCamionetaModel-->
+        <path codeLine="33" d="M1221.5,87.06 C1227.41,87.81 1233.27,88.46 1239,89 C1349.25,99.3 3125.24,76.62 3232,106 C3260.75,113.91 3289.72,131.06 3311.13,145.89 " fill="none" id="service.RegistroCamionetaServiceImpl-to-model.IRegistroCamionetaModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3315.31,148.83,3310.2327,140.3907,3311.2145,145.9617,3305.6435,146.9435,3315.31,148.83" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[257dc6bcae379a81204c320e7e6d19c4]
+link service.RegistroCamionetaServiceImpl to model.RegistroCamionetaModelImpl-->
+        <path codeLine="34" d="M1221.5,87.06 C1227.41,87.81 1233.27,88.47 1239,89 C1361.75,100.41 3338.5,75.69 3458,106 C3489.27,113.93 3521.33,131.28 3545.01,146.21 " fill="none" id="service.RegistroCamionetaServiceImpl-to-model.RegistroCamionetaModelImpl" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3549.33,148.96,3543.8899,140.7499,3545.1135,146.2728,3539.5905,147.4964,3549.33,148.96" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[daf97fb280363815af522662ffb33079]
+link service.RegistroCamionetaServiceImpl to service.IRegistroCamionetaService-->
+        <path codeLine="35" d="M1098.63,89 C1092.03,101.28 1083.71,116.76 1076.04,131.01 " fill="none" id="service.RegistroCamionetaServiceImpl-to-service.IRegistroCamionetaService" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1082.18,134.38,1066.54,148.68,1069.85,127.75,1082.18,134.38" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[084879b06d78f0ba8eae3b3fc9a4aa69]
+link service.RegistroClienteServiceImpl to java.lang.Override-->
+        <path codeLine="36" d="M1256.46,86.77 C1250.57,87.63 1244.72,88.38 1239,89 C1043.87,110.06 550.74,81.61 356,106 C271.97,116.52 176.45,141.76 120.93,157.81 " fill="none" id="service.RegistroClienteServiceImpl-to-java.lang.Override" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="116.02,159.23,125.7763,160.5768,120.8238,157.8432,123.5574,152.8907,116.02,159.23" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[fb98042c6c523694020c5b027eb6faab]
+link service.RegistroClienteServiceImpl to entity.Cliente-->
+        <path codeLine="37" d="M1256.46,86.76 C1250.57,87.62 1244.71,88.38 1239,89 C1216.57,91.44 442.78,89.88 427,106 C391.24,142.52 391.38,184.35 427,221 C437.85,232.16 693,222.2 707,229 C723.9,237.21 737.48,253.32 746.93,267.57 " fill="none" id="service.RegistroClienteServiceImpl-to-entity.Cliente" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="749.72,271.92,748.2179,262.1864,747.0162,267.7141,741.4885,266.5124,749.72,271.92" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[38d144f20f8968c487663d047e16f42e]
+link service.RegistroClienteServiceImpl to java.util.List-->
+        <path codeLine="38" d="M1453.77,86.56 C1459.92,87.49 1466.04,88.31 1472,89 C1498.73,92.08 1937.31,86.64 1956,106 C1991.5,142.77 1991.72,184.44 1956,221 C1942.6,234.71 1629.28,223.23 1611,229 C1585.36,237.09 1560.2,254.01 1541.66,268.7 " fill="none" id="service.RegistroClienteServiceImpl-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1537.57,271.99,1547.0932,269.4785,1541.4702,268.8613,1542.0873,263.2382,1537.57,271.99" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[3d24bf13f6e857dfa42f423c70bb1b97]
+link service.RegistroClienteServiceImpl to javax.swing.table.DefaultTableModel-->
+        <path codeLine="39" d="M1453.77,86.58 C1459.92,87.5 1466.04,88.32 1472,89 C1500.88,92.29 1974.78,85.11 1995,106 C2030.55,142.72 2026.42,180.69 1995,221 C1968.8,254.61 1858.1,275.31 1780.29,285.99 " fill="none" id="service.RegistroClienteServiceImpl-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1775.21,286.67,1784.6654,289.4258,1780.1648,285.9989,1783.5917,281.4982,1775.21,286.67" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[bb82ada803f647ce7813571254b46fa0]
+link service.RegistroClienteServiceImpl to model.IRegistroClienteModel-->
+        <path codeLine="40" d="M1453.75,86.76 C1459.91,87.63 1466.03,88.4 1472,89 C1533.74,95.25 3646.59,88.06 3706,106 C3732.1,113.88 3757.77,130.81 3776.7,145.55 " fill="none" id="service.RegistroClienteServiceImpl-to-model.IRegistroClienteModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3780.87,148.85,3776.2826,140.1348,3776.9449,145.7527,3771.3269,146.415,3780.87,148.85" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[fe9802c354929df62238c95ce17df289]
+link service.RegistroClienteServiceImpl to model.RegistroClienteModelImpl-->
+        <path codeLine="41" d="M1453.75,86.76 C1459.91,87.64 1466.03,88.4 1472,89 C1539.33,95.79 3842.78,87.97 3908,106 C3936.55,113.89 3965.27,131.04 3986.47,145.88 " fill="none" id="service.RegistroClienteServiceImpl-to-model.RegistroClienteModelImpl" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3990.61,148.81,3985.5663,140.3506,3986.526,145.9255,3980.9511,146.8851,3990.61,148.81" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8b4ff1eef4ce8737f1baf36b497be086]
+link service.RegistroClienteServiceImpl to service.IRegistroClienteService-->
+        <path codeLine="42" d="M1337.86,89 C1328.4,101.69 1316.39,117.81 1305.47,132.45 " fill="none" id="service.RegistroClienteServiceImpl-to-service.IRegistroClienteService" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1310.95,136.83,1293.38,148.68,1299.72,128.46,1310.95,136.83" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[b72f1a23e8c8342ae3ffa5982a33250a]
+link service.RegistroDeportivoServiceImpl to java.lang.Override-->
+        <path codeLine="43" d="M750.76,86.8 C744.76,87.63 738.81,88.37 733,89 C618.27,101.36 326.18,78.95 214,106 C179.55,114.31 143.45,131.57 116.53,146.36 " fill="none" id="service.RegistroDeportivoServiceImpl-to-java.lang.Override" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="111.95,148.9,121.7621,148.0504,116.3268,146.4827,117.8945,141.0474,111.95,148.9" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[7914215d5a3c669dc448942120008b1e]
+link service.RegistroDeportivoServiceImpl to entity.Deportivo-->
+        <path codeLine="44" d="M750.75,86.76 C744.76,87.6 738.81,88.36 733,89 C708.24,91.73 302.27,88.06 285,106 C249.55,142.82 249.77,183.97 285,221 C297.27,233.9 428.79,221.65 445,229 C463.47,237.37 479.37,253.69 490.7,268 " fill="none" id="service.RegistroDeportivoServiceImpl-to-entity.Deportivo" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="493.78,271.98,491.4431,262.4124,490.7232,268.0233,485.1123,267.3033,493.78,271.98" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[82c8881a1311465a1a0dbf66af54b8d2]
+link service.RegistroDeportivoServiceImpl to java.util.List-->
+        <path codeLine="45" d="M965.24,86.86 C971.23,87.67 977.18,88.4 983,89 C1002.04,90.97 1658.63,92.3 1672,106 C1707.69,142.58 1705.71,182.58 1672,221 C1662.98,231.28 1623.8,224.19 1611,229 C1586.19,238.32 1561.38,254.87 1542.81,269.07 " fill="none" id="service.RegistroDeportivoServiceImpl-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1538.7,272.25,1548.2623,269.8915,1542.6498,269.1842,1543.3571,263.5718,1538.7,272.25" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6e84f55b303f952c347b3cd4afe8207d]
+link service.RegistroDeportivoServiceImpl to javax.swing.table.DefaultTableModel-->
+        <path codeLine="46" d="M965.23,86.87 C971.23,87.68 977.18,88.4 983,89 C1003.12,91.07 1696.86,91.53 1711,106 C1752.59,148.57 1730.32,225.52 1713.74,266.89 " fill="none" id="service.RegistroDeportivoServiceImpl-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1711.75,271.75,1718.8681,264.9432,1713.6487,267.1245,1711.4673,261.9052,1711.75,271.75" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f062558b9d7bbc2d64ee03632a4a9288]
+link service.RegistroDeportivoServiceImpl to model.IRegistroDeportivoModel-->
+        <path codeLine="47" d="M965.23,86.96 C971.22,87.75 977.18,88.44 983,89 C1081.88,98.5 2675.39,79.03 2771,106 C2799.13,113.94 2827.33,131.08 2848.14,145.91 " fill="none" id="service.RegistroDeportivoServiceImpl-to-model.IRegistroDeportivoModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2852.2,148.84,2847.2579,140.3209,2848.1508,145.9068,2842.5648,146.7996,2852.2,148.84" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[abbef7a0ea1a648b9d61a7096a56dabc]
+link service.RegistroDeportivoServiceImpl to model.RegistroDeportivoModelImpl-->
+        <path codeLine="48" d="M965.22,86.97 C971.22,87.76 977.18,88.44 983,89 C1094.05,99.61 2883.07,77.79 2991,106 C3021.19,113.89 3051.97,131.04 3074.79,145.88 " fill="none" id="service.RegistroDeportivoServiceImpl-to-model.RegistroDeportivoModelImpl" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="3079.25,148.81,3073.9474,140.5104,3075.0788,146.053,3069.5362,147.1844,3079.25,148.81" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[7d6296f79bc15305373dcd334e5aa934]
+link service.RegistroDeportivoServiceImpl to service.IRegistroDeportivoService-->
+        <path codeLine="49" d="M850.41,89 C846.49,100.86 841.58,115.72 837.01,129.57 " fill="none" id="service.RegistroDeportivoServiceImpl-to-service.IRegistroDeportivoService" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="843.62,131.88,830.7,148.68,830.32,127.49,843.62,131.88" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[70c2b060909c2e01234a30f25e3ad384]
+link service.RegistroEmpleadoServiceImpl to java.lang.Override-->
+        <path codeLine="50" d="M1488.91,86.92 C1482.86,87.72 1476.86,88.42 1471,89 C1009.18,134.6 888.72,59.41 427,106 C316.36,117.16 188.55,144.81 121.19,160.55 " fill="none" id="service.RegistroEmpleadoServiceImpl-to-java.lang.Override" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="116.05,161.75,125.7257,163.5886,120.9178,160.608,123.8985,155.8001,116.05,161.75" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e258c624c3306b421b943cb29adfafeb]
+link service.RegistroEmpleadoServiceImpl to entity.Empleado-->
+        <path codeLine="51" d="M1488.91,86.91 C1482.86,87.71 1476.86,88.42 1471,89 C1443.82,91.7 507.14,86.52 488,106 C452.17,142.45 452.3,184.42 488,221 C500.77,234.08 800.22,221.73 817,229 C835.75,237.12 851.9,253.44 863.41,267.81 " fill="none" id="service.RegistroEmpleadoServiceImpl-to-entity.Empleado" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="866.53,271.81,864.1164,262.2615,863.4415,267.8779,857.8251,267.203,866.53,271.81" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[2f3e3ffd1a1c66e6d61c0108694207af]
+link service.RegistroEmpleadoServiceImpl to java.util.List-->
+        <path codeLine="52" d="M1705.27,67.01 C1844.6,69.45 2071.94,77.77 2098,106 C2132.67,143.55 2133.84,184.56 2098,221 C2088.51,230.65 1623.92,224.97 1611,229 C1585.33,237 1560.17,253.93 1541.64,268.63 " fill="none" id="service.RegistroEmpleadoServiceImpl-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1537.55,271.93,1547.0687,269.4014,1541.4445,268.7943,1542.0516,263.1701,1537.55,271.93" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[c92a948f89f2bcdd0d0f058a5a5317a5]
+link service.RegistroEmpleadoServiceImpl to javax.swing.table.DefaultTableModel-->
+        <path codeLine="53" d="M1705.15,66.3 C1854.36,67.86 2108.29,75.09 2137,106 C2171.78,143.45 2169.98,181.95 2137,221 C2092.26,273.98 1893.59,289.03 1780.48,293.31 " fill="none" id="service.RegistroEmpleadoServiceImpl-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1775.16,293.51,1784.2918,297.1993,1780.1571,293.3387,1784.0177,289.204,1775.16,293.51" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[517eaa0797b83c67f35d3c9126e4a031]
+link service.RegistroEmpleadoServiceImpl to model.IRegistroEmpleadoModel-->
+        <path codeLine="54" d="M1705.05,66.15 C2173.88,67.01 4013.82,72.51 4132,106 C4160.31,114.02 4188.77,131.17 4209.78,145.97 " fill="none" id="service.RegistroEmpleadoServiceImpl-to-model.IRegistroEmpleadoModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4213.88,148.9,4208.8701,140.4206,4209.8075,145.9992,4204.2288,146.9366,4213.88,148.9" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[c580f80e3a21b5f2e7f90541e43fc631]
+link service.RegistroEmpleadoServiceImpl to model.RegistroEmpleadoModelImpl-->
+        <path codeLine="55" d="M1705.23,66.12 C2199.51,66.83 4224,71.85 4354,106 C4384.5,114.01 4415.67,131.27 4438.73,146.13 " fill="none" id="service.RegistroEmpleadoServiceImpl-to-model.RegistroEmpleadoModelImpl" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="4442.94,148.87,4437.572,140.6126,4438.7471,146.1461,4433.2137,147.3212,4442.94,148.87" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[51922a0c641c99f10eb51149f454b11b]
+link service.RegistroEmpleadoServiceImpl to service.IRegistroEmpleadoService-->
+        <path codeLine="56" d="M1575.08,89 C1562.6,102.11 1546.63,118.86 1532.32,133.88 " fill="none" id="service.RegistroEmpleadoServiceImpl-to-service.IRegistroEmpleadoService" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1537.09,139.03,1518.22,148.68,1526.95,129.37,1537.09,139.03" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[9269dacdea8040a89044fcf70fe9a561]
+link service.RegistroSedanesServiceImpl to java.lang.Override-->
+        <path codeLine="57" d="M506.3,66.91 C388.55,69.34 205.61,77.72 143,106 C123.94,114.61 106.91,130.76 94.54,144.93 " fill="none" id="service.RegistroSedanesServiceImpl-to-java.lang.Override" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="91.18,148.86,100.0741,144.6299,94.434,145.0637,94.0001,139.4235,91.18,148.86" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[79b5bb7f17513295efab666488a69953]
+link service.RegistroSedanesServiceImpl to entity.Sedanes-->
+        <path codeLine="58" d="M506.45,69.41 C395.46,74.13 233.34,84.61 214,106 C179.72,143.91 185.98,178.25 214,221 C240.59,261.58 294.81,280.03 334.9,288.34 " fill="none" id="service.RegistroSedanesServiceImpl-to-entity.Sedanes" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="340.21,289.4,332.1724,283.7081,335.3076,288.4167,330.5991,291.5519,340.21,289.4" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[0895eaaa67ebd73323ef862a7e22bbc2]
+link service.RegistroSedanesServiceImpl to java.util.List-->
+        <path codeLine="59" d="M715.51,86.76 C721.75,87.62 727.95,88.38 734,89 C758.24,91.48 1593.94,88.6 1611,106 C1646.79,142.49 1633.89,175.3 1611,221 C1596.94,249.06 1566.64,269.21 1543.23,281.33 " fill="none" id="service.RegistroSedanesServiceImpl-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1538.65,283.65,1548.4863,283.1525,1543.1106,281.3911,1544.872,276.0154,1538.65,283.65" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[94ccc63449735b53d31fa0e8d8c5d822]
+link service.RegistroSedanesServiceImpl to javax.swing.table.DefaultTableModel-->
+        <path codeLine="60" d="M715.51,86.76 C721.75,87.62 727.95,88.38 734,89 C759.26,91.58 1627.91,90.47 1648,106 C1697.23,144.05 1703.2,223.96 1702.57,266.67 " fill="none" id="service.RegistroSedanesServiceImpl-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1702.46,271.69,1706.6392,262.7718,1702.56,266.691,1698.6408,262.6118,1702.46,271.69" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[edbd40735850488b4058a0c8bc5e8961]
+link service.RegistroSedanesServiceImpl to model.IRegistroSedanesModel-->
+        <path codeLine="61" d="M715.51,86.78 C721.75,87.63 727.95,88.39 734,89 C957.11,111.58 1519.1,93.35 1743,106 C1954.4,117.95 2201.38,144.98 2333.38,160.49 " fill="none" id="service.RegistroSedanesServiceImpl-to-model.IRegistroSedanesModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2338.41,161.08,2329.9398,156.0544,2333.4443,160.495,2329.0038,163.9995,2338.41,161.08" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[c30f24d8eb9fb40450623bafc1a54065]
+link service.RegistroSedanesServiceImpl to model.RegistroSedanesModelImpl-->
+        <path codeLine="62" d="M715.5,86.83 C721.74,87.67 727.95,88.41 734,89 C833.59,98.71 2438.3,80.3 2535,106 C2564.77,113.91 2595.04,131.06 2617.46,145.89 " fill="none" id="service.RegistroSedanesServiceImpl-to-model.RegistroSedanesModelImpl" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="2621.84,148.83,2616.5901,140.497,2617.6863,146.0466,2612.1367,147.1428,2621.84,148.83" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ee0d323f90ace2252eb462623720268d]
+link service.RegistroSedanesServiceImpl to service.IRegistroSedanesService-->
+        <path codeLine="63" d="M608.4,89 C607.08,100.59 605.45,115.03 603.91,128.6 " fill="none" id="service.RegistroSedanesServiceImpl-to-service.IRegistroSedanesService" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="610.85,129.59,601.64,148.68,596.93,128.02,610.85,129.59" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[aed4453126d15abc7d6471083c81c754]
+link service.IRegistroCamionetaService to entity.Camioneta-->
+        <path codeLine="64" d="M1007.36,197.07 C986.38,206.3 960.99,215.93 937,221 C911.98,226.29 730.49,218.89 707,229 C687.94,237.2 671.3,253.52 659.37,267.88 " fill="none" id="service.IRegistroCamionetaService-to-entity.Camioneta" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="656.13,271.86,664.9098,267.3973,659.283,267.9794,658.7009,262.3526,656.13,271.86" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8b49e5f9733897fdc77dfbe88ef4f511]
+link service.IRegistroCamionetaService to java.util.List-->
+        <path codeLine="65" d="M1106.03,197.09 C1126.07,205.4 1149.34,214.35 1171,221 C1282.53,255.24 1419.24,279.84 1480.12,289.93 " fill="none" id="service.IRegistroCamionetaService-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1485.08,290.75,1476.8524,285.3364,1480.1469,289.935,1475.5483,293.2294,1485.08,290.75" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e4b557c4014139a0678e1ecc790fac51]
+link service.IRegistroCamionetaService to javax.swing.table.DefaultTableModel-->
+        <path codeLine="66" d="M1100.33,197.1 C1121.35,206.4 1146.87,216.07 1171,221 C1254.63,238.07 1471.76,210.15 1555,229 C1591.05,237.16 1629.02,254.64 1657.19,269.55 " fill="none" id="service.IRegistroCamionetaService-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1661.63,271.92,1655.5856,264.1441,1657.2226,269.5589,1651.8078,271.1959,1661.63,271.92" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[599864d82f770dfe24146fd66f711083]
+link service.IRegistroClienteService to entity.Cliente-->
+        <path codeLine="67" d="M1234.42,197.21 C1215.65,206.47 1192.82,216.08 1171,221 C1132.62,229.65 852.44,211.91 817,229 C800.08,237.16 786.49,253.27 777.06,267.53 " fill="none" id="service.IRegistroClienteService-to-entity.Cliente" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="774.26,271.89,782.4915,266.4824,776.9638,267.6841,775.7621,262.1564,774.26,271.89" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ace7c119d6322bac731b724be7194216]
+link service.IRegistroClienteService to java.util.List-->
+        <path codeLine="68" d="M1320.95,197.04 C1367.6,220.96 1439.36,257.76 1480.37,278.78 " fill="none" id="service.IRegistroClienteService-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1485.21,281.26,1479.0369,273.5858,1480.7639,278.9726,1475.3771,280.6996,1485.21,281.26" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[384ac40aaeacbf3ce0a9722e7d20bf0d]
+link service.IRegistroClienteService to javax.swing.table.DefaultTableModel-->
+        <path codeLine="69" d="M1318.31,197.09 C1337.23,206.26 1360.15,215.84 1382,221 C1456.91,238.68 1480.15,211.05 1555,229 C1590.69,237.56 1628.37,254.83 1656.51,269.55 " fill="none" id="service.IRegistroClienteService-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1660.95,271.89,1654.8456,264.161,1656.5245,269.563,1651.1225,271.2419,1660.95,271.89" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[95cf09024b91f9e9686b6c23e804a4a6]
+link service.IRegistroDeportivoService to entity.Deportivo-->
+        <path codeLine="70" d="M777.01,197.05 C756.67,206.16 732.16,215.7 709,221 C679.49,227.75 600.52,216.39 573,229 C554.7,237.39 538.89,253.53 527.57,267.76 " fill="none" id="service.IRegistroDeportivoService-to-entity.Deportivo" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="524.5,271.71,533.1782,267.0529,527.5658,267.7602,526.8585,262.1477,524.5,271.71" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[a82d328844642d4b112c705173e9ee7d]
+link service.IRegistroDeportivoService to java.util.List-->
+        <path codeLine="71" d="M870.84,197.01 C890.87,205.77 914.65,215.07 937,221 C1139.44,274.75 1392.72,290.01 1480.41,293.84 " fill="none" id="service.IRegistroDeportivoService-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1485.45,294.06,1476.6301,289.6772,1480.4546,293.8453,1476.2865,297.6698,1485.45,294.06" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[dcd70cf049f3f0409813b779b40cccfa]
+link service.IRegistroDeportivoService to javax.swing.table.DefaultTableModel-->
+        <path codeLine="72" d="M867.79,197.07 C888.31,206.42 913.3,216.15 937,221 C1004.28,234.78 1487.96,214.1 1555,229 C1591.21,237.05 1629.32,254.63 1657.52,269.62 " fill="none" id="service.IRegistroDeportivoService-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1661.96,272,1655.9246,264.217,1657.5554,269.6338,1652.1386,271.2645,1661.96,272" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[070e777ac1c617ab2b38c22984e9f840]
+link service.IRegistroEmpleadoService to entity.Empleado-->
+        <path codeLine="73" d="M1447.1,197.03 C1427,205.69 1403.26,214.9 1381,221 C1221.63,264.69 1026.11,284.18 934.31,291.4 " fill="none" id="service.IRegistroEmpleadoService-to-entity.Empleado" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="929.21,291.8,938.4917,295.0939,934.1951,291.4143,937.8747,287.1177,929.21,291.8" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[ae5ffb304bc511fdea5f24c1ba7b7ca5]
+link service.IRegistroEmpleadoService to java.util.List-->
+        <path codeLine="74" d="M1499.05,197.04 C1501.66,216.77 1505.42,245.24 1508.22,266.41 " fill="none" id="service.IRegistroEmpleadoService-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1508.91,271.63,1511.6926,262.1824,1508.2529,266.6734,1503.762,263.2337,1508.91,271.63" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[222b8c0d62d2b2466736b886adf2c4d7]
+link service.IRegistroEmpleadoService to javax.swing.table.DefaultTableModel-->
+        <path codeLine="75" d="M1535.04,197.04 C1569.98,217.67 1621.14,247.86 1657.41,269.27 " fill="none" id="service.IRegistroEmpleadoService-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1661.76,271.84,1656.0493,263.8158,1657.4562,269.2949,1651.9771,270.7019,1661.76,271.84" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[607684be594050cd4821c833e010d6fb]
+link service.IRegistroSedanesService to entity.Sedanes-->
+        <path codeLine="76" d="M511.61,197.03 C488.87,205.16 465.13,215.7 445,229 C429.31,239.37 414.87,254.6 403.99,267.82 " fill="none" id="service.IRegistroSedanesService-to-entity.Sedanes" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="400.72,271.86,409.4899,267.3779,403.8643,267.9724,403.2698,262.3469,400.72,271.86" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[70076890fe6ecd1ba9b61f0893c7270b]
+link service.IRegistroSedanesService to java.util.List-->
+        <path codeLine="77" d="M642.71,197.09 C662.4,206.32 686.3,215.95 709,221 C760.22,232.39 892.67,225.07 945,229 C1149.49,244.34 1393.83,278 1480.01,290.34 " fill="none" id="service.IRegistroSedanesService-to-java.util.List" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1485.22,291.09,1476.8846,285.8439,1480.2714,290.3749,1475.7404,293.7617,1485.22,291.09" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[4faf324a2d12b6c46725b9ebf6c24255]
+link service.IRegistroSedanesService to javax.swing.table.DefaultTableModel-->
+        <path codeLine="78" d="M642.12,197.11 C661.91,206.46 686.03,216.19 709,221 C801,240.29 1463.2,208.76 1555,229 C1591.23,236.99 1629.33,254.56 1657.53,269.57 " fill="none" id="service.IRegistroSedanesService-to-javax.swing.table.DefaultTableModel" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="#A80036" points="1661.97,271.96,1655.9452,264.1689,1657.5686,269.5878,1652.1496,271.2112,1661.97,271.96" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[1c31128efa61b9a405fc3c25f5358af9]
+@startuml
+annotation java.lang.Override
+class entity.Camioneta
+class entity.Cliente
+class entity.Deportivo
+class entity.Empleado
+class entity.Sedanes
+class java.util.List
+class javax.swing.table.DefaultTableModel
+class model.IRegistroCamionetaModel
+class model.IRegistroClienteModel
+class model.IRegistroDeportivoModel
+class model.IRegistroEmpleadoModel
+class model.IRegistroSedanesModel
+class model.RegistroCamionetaModelImpl
+class model.RegistroClienteModelImpl
+class model.RegistroDeportivoModelImpl
+class model.RegistroEmpleadoModelImpl
+class model.RegistroSedanesModelImpl
+class service.RegistroCamionetaServiceImpl
+class service.RegistroClienteServiceImpl
+class service.RegistroDeportivoServiceImpl
+class service.RegistroEmpleadoServiceImpl
+class service.RegistroSedanesServiceImpl
+interface service.IRegistroCamionetaService
+interface service.IRegistroClienteService
+interface service.IRegistroDeportivoService
+interface service.IRegistroEmpleadoService
+interface service.IRegistroSedanesService
+service.RegistroCamionetaServiceImpl ..> java.lang.Override
+service.RegistroCamionetaServiceImpl ..> entity.Camioneta
+service.RegistroCamionetaServiceImpl ..> java.util.List
+service.RegistroCamionetaServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroCamionetaServiceImpl ..> model.IRegistroCamionetaModel
+service.RegistroCamionetaServiceImpl ..> model.RegistroCamionetaModelImpl
+service.RegistroCamionetaServiceImpl - -|> service.IRegistroCamionetaService
+service.RegistroClienteServiceImpl ..> java.lang.Override
+service.RegistroClienteServiceImpl ..> entity.Cliente
+service.RegistroClienteServiceImpl ..> java.util.List
+service.RegistroClienteServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroClienteServiceImpl ..> model.IRegistroClienteModel
+service.RegistroClienteServiceImpl ..> model.RegistroClienteModelImpl
+service.RegistroClienteServiceImpl - -|> service.IRegistroClienteService
+service.RegistroDeportivoServiceImpl ..> java.lang.Override
+service.RegistroDeportivoServiceImpl ..> entity.Deportivo
+service.RegistroDeportivoServiceImpl ..> java.util.List
+service.RegistroDeportivoServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroDeportivoServiceImpl ..> model.IRegistroDeportivoModel
+service.RegistroDeportivoServiceImpl ..> model.RegistroDeportivoModelImpl
+service.RegistroDeportivoServiceImpl - -|> service.IRegistroDeportivoService
+service.RegistroEmpleadoServiceImpl ..> java.lang.Override
+service.RegistroEmpleadoServiceImpl ..> entity.Empleado
+service.RegistroEmpleadoServiceImpl ..> java.util.List
+service.RegistroEmpleadoServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroEmpleadoServiceImpl ..> model.IRegistroEmpleadoModel
+service.RegistroEmpleadoServiceImpl ..> model.RegistroEmpleadoModelImpl
+service.RegistroEmpleadoServiceImpl - -|> service.IRegistroEmpleadoService
+service.RegistroSedanesServiceImpl ..> java.lang.Override
+service.RegistroSedanesServiceImpl ..> entity.Sedanes
+service.RegistroSedanesServiceImpl ..> java.util.List
+service.RegistroSedanesServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroSedanesServiceImpl ..> model.IRegistroSedanesModel
+service.RegistroSedanesServiceImpl ..> model.RegistroSedanesModelImpl
+service.RegistroSedanesServiceImpl - -|> service.IRegistroSedanesService
+service.IRegistroCamionetaService ..> entity.Camioneta
+service.IRegistroCamionetaService ..> java.util.List
+service.IRegistroCamionetaService ..> javax.swing.table.DefaultTableModel
+service.IRegistroClienteService ..> entity.Cliente
+service.IRegistroClienteService ..> java.util.List
+service.IRegistroClienteService ..> javax.swing.table.DefaultTableModel
+service.IRegistroDeportivoService ..> entity.Deportivo
+service.IRegistroDeportivoService ..> java.util.List
+service.IRegistroDeportivoService ..> javax.swing.table.DefaultTableModel
+service.IRegistroEmpleadoService ..> entity.Empleado
+service.IRegistroEmpleadoService ..> java.util.List
+service.IRegistroEmpleadoService ..> javax.swing.table.DefaultTableModel
+service.IRegistroSedanesService ..> entity.Sedanes
+service.IRegistroSedanesService ..> java.util.List
+service.IRegistroSedanesService ..> javax.swing.table.DefaultTableModel
+@enduml
+
+PlantUML version 1.2021.3(Mon Mar 22 10:53:19 CST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: MX
+-->
+    </g>
+</svg>

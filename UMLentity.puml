@@ -1,0 +1,18 @@
+@startuml
+abstract class entity.Vehiculo
+annotation java.lang.Override
+class entity.Camioneta
+class entity.Cliente
+class entity.Deportivo
+class entity.Empleado
+class entity.Persona
+class entity.Sedanes
+entity.Camioneta --|> entity.Vehiculo
+entity.Camioneta ..> java.lang.Override
+entity.Cliente --|> entity.Persona
+entity.Deportivo --|> entity.Vehiculo
+entity.Deportivo ..> java.lang.Override
+entity.Empleado --|> entity.Persona
+entity.Sedanes --|> entity.Vehiculo
+entity.Sedanes ..> java.lang.Override
+@enduml

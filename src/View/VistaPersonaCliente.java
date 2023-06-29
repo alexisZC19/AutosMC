@@ -102,7 +102,7 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
                 jButtonRegistrarActionPerformed(evt);
             }
         });
-        jPanel1.add(jButtonRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
+        jPanel1.add(jButtonRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 140, -1));
 
         jButtonEditar.setBackground(new java.awt.Color(255, 204, 0));
         jButtonEditar.setText("Editar");
@@ -111,7 +111,7 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
                 jButtonEditarMouseClicked(evt);
             }
         });
-        jPanel1.add(jButtonEditar, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, -1, -1));
+        jPanel1.add(jButtonEditar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 220, 130, -1));
 
         jButtonEliminar.setBackground(new java.awt.Color(255, 204, 0));
         jButtonEliminar.setText("Eliminar");
@@ -120,7 +120,7 @@ public class VistaPersonaCliente extends javax.swing.JFrame {
                 jButtonEliminarMouseClicked(evt);
             }
         });
-        jPanel1.add(jButtonEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 220, -1, -1));
+        jPanel1.add(jButtonEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 220, 140, -1));
 
         jTableRegistros.setBackground(new java.awt.Color(255, 204, 153));
         jTableRegistros.setModel(new javax.swing.table.DefaultTableModel(

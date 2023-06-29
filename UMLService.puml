@@ -1,0 +1,80 @@
+@startuml
+annotation java.lang.Override
+class entity.Camioneta
+class entity.Cliente
+class entity.Deportivo
+class entity.Empleado
+class entity.Sedanes
+class java.util.List
+class javax.swing.table.DefaultTableModel
+class model.IRegistroCamionetaModel
+class model.IRegistroClienteModel
+class model.IRegistroDeportivoModel
+class model.IRegistroEmpleadoModel
+class model.IRegistroSedanesModel
+class model.RegistroCamionetaModelImpl
+class model.RegistroClienteModelImpl
+class model.RegistroDeportivoModelImpl
+class model.RegistroEmpleadoModelImpl
+class model.RegistroSedanesModelImpl
+class service.RegistroCamionetaServiceImpl
+class service.RegistroClienteServiceImpl
+class service.RegistroDeportivoServiceImpl
+class service.RegistroEmpleadoServiceImpl
+class service.RegistroSedanesServiceImpl
+interface service.IRegistroCamionetaService
+interface service.IRegistroClienteService
+interface service.IRegistroDeportivoService
+interface service.IRegistroEmpleadoService
+interface service.IRegistroSedanesService
+service.RegistroCamionetaServiceImpl ..> java.lang.Override
+service.RegistroCamionetaServiceImpl ..> entity.Camioneta
+service.RegistroCamionetaServiceImpl ..> java.util.List
+service.RegistroCamionetaServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroCamionetaServiceImpl ..> model.IRegistroCamionetaModel
+service.RegistroCamionetaServiceImpl ..> model.RegistroCamionetaModelImpl
+service.RegistroCamionetaServiceImpl --|> service.IRegistroCamionetaService
+service.RegistroClienteServiceImpl ..> java.lang.Override
+service.RegistroClienteServiceImpl ..> entity.Cliente
+service.RegistroClienteServiceImpl ..> java.util.List
+service.RegistroClienteServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroClienteServiceImpl ..> model.IRegistroClienteModel
+service.RegistroClienteServiceImpl ..> model.RegistroClienteModelImpl
+service.RegistroClienteServiceImpl --|> service.IRegistroClienteService
+service.RegistroDeportivoServiceImpl ..> java.lang.Override
+service.RegistroDeportivoServiceImpl ..> entity.Deportivo
+service.RegistroDeportivoServiceImpl ..> java.util.List
+service.RegistroDeportivoServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroDeportivoServiceImpl ..> model.IRegistroDeportivoModel
+service.RegistroDeportivoServiceImpl ..> model.RegistroDeportivoModelImpl
+service.RegistroDeportivoServiceImpl --|> service.IRegistroDeportivoService
+service.RegistroEmpleadoServiceImpl ..> java.lang.Override
+service.RegistroEmpleadoServiceImpl ..> entity.Empleado
+service.RegistroEmpleadoServiceImpl ..> java.util.List
+service.RegistroEmpleadoServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroEmpleadoServiceImpl ..> model.IRegistroEmpleadoModel
+service.RegistroEmpleadoServiceImpl ..> model.RegistroEmpleadoModelImpl
+service.RegistroEmpleadoServiceImpl --|> service.IRegistroEmpleadoService
+service.RegistroSedanesServiceImpl ..> java.lang.Override
+service.RegistroSedanesServiceImpl ..> entity.Sedanes
+service.RegistroSedanesServiceImpl ..> java.util.List
+service.RegistroSedanesServiceImpl ..> javax.swing.table.DefaultTableModel
+service.RegistroSedanesServiceImpl ..> model.IRegistroSedanesModel
+service.RegistroSedanesServiceImpl ..> model.RegistroSedanesModelImpl
+service.RegistroSedanesServiceImpl --|> service.IRegistroSedanesService
+service.IRegistroCamionetaService ..> entity.Camioneta
+service.IRegistroCamionetaService ..> java.util.List
+service.IRegistroCamionetaService ..> javax.swing.table.DefaultTableModel
+service.IRegistroClienteService ..> entity.Cliente
+service.IRegistroClienteService ..> java.util.List
+service.IRegistroClienteService ..> javax.swing.table.DefaultTableModel
+service.IRegistroDeportivoService ..> entity.Deportivo
+service.IRegistroDeportivoService ..> java.util.List
+service.IRegistroDeportivoService ..> javax.swing.table.DefaultTableModel
+service.IRegistroEmpleadoService ..> entity.Empleado
+service.IRegistroEmpleadoService ..> java.util.List
+service.IRegistroEmpleadoService ..> javax.swing.table.DefaultTableModel
+service.IRegistroSedanesService ..> entity.Sedanes
+service.IRegistroSedanesService ..> java.util.List
+service.IRegistroSedanesService ..> javax.swing.table.DefaultTableModel
+@enduml
